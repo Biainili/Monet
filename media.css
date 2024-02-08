@@ -1227,10 +1227,6 @@
    }
 }
 
-   .sect_2 {
-      background-image: url(./img/sect_2_9.svg);
-   }
-
    .circles {
       display: none;
    }
@@ -2094,7 +2090,6 @@
    }
 
    .sect_2 {
-      background-image: url(./img/sect_2_6.svg);
       padding-inline: 0px;
    }
 
@@ -2604,7 +2599,6 @@
 
 
    .sect_2 {
-      background-image: url(./img/sect_2_4.svg);
       padding-inline: 16px;
       padding-inline: 0px;
    }
