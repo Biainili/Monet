@@ -1,0 +1,280 @@
+@media screen and (max-width:1440px) {
+    .sakaginSection {
+        background-image: url(../img/sakagin14.svg);
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .sakaginSection {
+        background-image: url(../img/sakagin12.svg);
+    }
+}
+
+@media screen and (max-width:968px) {
+    .sakaginSection {
+        background-image: url(../img/ReportPageView968.svg);
+    }
+}
+
+
+@media screen and (max-width:678px) {
+    .sakaginSection {
+        background-image: url(../img/sakagner6.svg);
+    }
+}
+
+@media screen and (max-width:428px) {
+    .sakaginSection {
+        background-image: url(../img/sakagin4.svg);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .sakaginSection {
+        background-image: url(../img/sakagin3.svg);
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1440px) {
+    .sakaginSection {
+        height: 710px;
+        padding-inline: 97px;
+    }
+
+    .sakH1 {
+        margin-top: 50px;
+    }
+
+    .sakH1 h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .payLeftTop {
+        gap: 10px;
+    }
+
+    .payLeftTop span,
+    .payRightBot span,
+    .passTop span,
+    .passBot span {
+        font-size: 16px;
+    }
+
+    .passes {
+        margin-top: 33px;
+    }
+
+    .passTop,
+    .payRightBot {
+        gap: 10px;
+    }
+
+    .passBot {
+        margin-top: 40px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:1280px) {
+    .sakaginSection {
+        height: 710px;
+    }
+
+    .topSpa {
+        margin-top: 46px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:968px) {
+    .sakaginSection {
+        height: 613px;
+
+    }
+
+    .topSpa {
+        display: none;
+    }
+
+    .sakH1 h1 {
+        color: #FFFFFF;
+    }
+
+    .sakH1 {
+        margin-top: 60px;
+    }
+
+    .paymant {
+        margin-top: 30px;
+    }
+
+    .paymLeft {
+        gap: 33px;
+    }
+
+    .passes {
+        margin-top: 40px;
+    }
+
+    .passBot {
+        margin-top: 35px;
+        gap: 10px;
+    }
+
+    .passSp {
+        letter-spacing: 1px !important;
+    }
+
+    .payLeftTop h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .payLeftTop span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #F6F6F6B2;
+    }
+
+    .payRightBot h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #FFFFFFB2;
+    }
+
+    .payRightBot span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #F6F6F6B2;
+    }
+
+    .passTop h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+
+    }
+
+    .passTop span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #F6F6F6B2;
+    }
+
+    .passTop span {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #F6F6F6B2;
+    }
+
+    .passBot span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #F6F6F6B2;
+    }
+
+    .passSp {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #F6F6F6B2;
+    }
+
+    .paymRight {
+        display: none;
+    }
+}
+
+@media screen and (max-width:678px) {
+    .sakaginSection {
+        height: 700px;
+        padding-inline: 16px;
+    }
+    .sakH1, .paymant, .passes{
+        max-width: 478px;
+        width: 100%;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:428px) {
+    .sakaginSection {
+        height: 628px;
+        padding-inline: 16px;
+    }
+
+    .payLeftTop span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #F6F6F6B2;
+    }
+
+    .payRightBot span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:320px) {
+    .sakaginSection {
+        height: 634px;
+    }
+
+    .sakH1 h1 {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+
+    .paymLeft {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .sakH1 h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:290px) {
+    .sakaginSection {
+        height: 670px;
+    }
+}

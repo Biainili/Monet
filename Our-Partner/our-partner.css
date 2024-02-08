@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "Montserratarm";
+    src: url(../fonts/fonts/Montserratarm-Medium/Montserratarm-Medium.ttf);
+}
+
+body {
+    font-family: "Montserratarm";
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.our-partners-content {
+    width: 100%;
+    min-height: 809px;
+    background-image: url(../img/Frame\ -1920px-BG.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-inline: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-content {
+    max-width: 1430px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 100px;
+}
+
+.left-content h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #F6F6F6;
+    margin-bottom: 77px;
+}
+
+.all-partners {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: start;
+    color: #FFFFFF;
+}
+
+.general-content-partners {
+    max-width: 1430px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    gap: 30px;
+}
+
+.img-for-partner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+
+
+/* Style for 1440px-1281px START */
+
+@media only screen and (max-width: 1440px) and (min-width: 1281px) {
+    .our-partners-content {
+        min-height: 783px;
+        background-image: url(../img/PartnersPageView-1440px-Partners.svg);
+    }
+
+    .left-content {
+        gap: 50px;
+    }
+
+    .general-content-partners {
+        padding-inline: 0;
+    }
+
+    .left-content h1 {
+        margin-bottom: 56px;
+    }
+
+    .left-content h1 {
+        font-weight: 100;
+    }
+
+}
+
+/* Style for 1440px-1281px END */
+
+
+/* Style for 1280px-969px START */
+
+@media only screen and (max-width: 1280px) and (min-width: 969px) {
+
+    .our-partners-content {
+        min-height: 748px;
+        background-image: url(../img/PartnersPageView-1280px-BG.svg);
+    }
+
+    .left-content {
+        gap: 54px;
+    }
+
+    .general-content-partners {
+        padding-inline: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 27px 54px;
+
+    }
+
+    .left-content h1 {
+        margin-bottom: 56px;
+    }
+
+    .left-content h1 {
+        font-weight: 100;
+    }
+}
+
+
+/* Style for 1280px-969px END */
+
+
+
+
+
+
+@media only screen and (max-width: 1170px){
+.our-partners-content{
+    padding-inline: 0px;
+}
+.left-content{
+    padding-inline: 100px;
+}
+.general-content-partners{
+    padding-inline: 50px;
+    gap: 15px 0px;
+
+}
+
+}
+
+
+
+
+
+
+
+/* Style for 969px-679px START */
+
+@media only screen and (max-width: 968px) and (min-width: 679px) {
+    .general-content-partners {
+        padding-inline: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 27px 54px;
+
+    }
+    .our-partners-content{
+        padding-inline: 100px;
+    }
+    .left-content{
+        padding-inline: 0px;
+    }
+
+    .our-partners-content {
+        min-height: 626px;
+        background-image: url(../img/PartnerPageView-968px-BG.svg);
+    }
+
+    .left-content {
+        gap: 54px;
+    }
+
+    .general-content-partners {
+        max-width: 700px;
+        padding-inline: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 27px 0px;
+
+    }
+
+    .left-content h1 {
+        margin-bottom: 50px;
+    }
+
+    .left-content h1 {
+        font-weight: 100;
+    }
+
+    .all-partners {
+        display: none;
+    }
+
+    .left-content {
+        padding-top: 61px;
+    }
+
+    .img-for-partner img {
+        width: 250px;
+        height: 60px;
+    }
+}
+
+/* Style for 969px-679px END */
+
+
+/* Style for 678px-429px START */
+
+@media only screen and (max-width: 678px)  {
+
+    .our-partners-content {
+        min-height: 826px;
+        background-image: url(../img/PartnerPageView-678px-BG.svg);
+    }
+
+    .left-content {
+        gap: 54px;
+        padding-top: 60px;
+    }
+
+    .general-content-partners {
+        max-width: 600px;
+        padding-inline: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 21px 1px;
+    }
+
+    .all-partners {
+        display: none;
+    }
+
+    .img-for-partner img {
+        width: 220px;
+        height: 60px;
+    }
+
+    .left-content h1 {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) and (min-width:600px){
+
+.img-for-partner img {
+    width: 225px;
+    height: 60px;
+}
+.general-content-partners {
+    max-width: 451px;
+}
+}
+
+
+
+
+
+/* Style for 678px-429px END */
+
+
+@media only screen and (max-width: 600px){
+    .our-partners-content {
+        padding-inline: 50px;
+    }
+    .left-content {
+        padding-inline: 0px;
+    }
+    
+}
+
+/* Style for 505px-429px START */
+
+@media only screen and (max-width: 505px) and (min-width: 429px) {
+    
+
+    .left-content {
+        width: 100%;
+    }
+}
+
+/* Style for 505px-429px END */
+
+
+/* Style for 678px-429px START */
+@media only screen and (max-width: 428px) and (min-width: 320px) {
+    .our-partners-content {
+        min-height: 414px;
+        background-image: url(../img/MobilePartnersPage-428px-BG.svg);
+    }
+    .our-partners-content {
+        padding-inline: 16px;
+    }
+    .left-content {
+        gap: 54px;
+        padding-top: 60px;
+    }
+
+    .general-content-partners {
+        max-width: 428px;
+        display: grid;
+        grid-template-columns: 160px 160px;
+        gap: 21px 58px;
+    }
+
+    .all-partners {
+        display: none;
+    }
+
+    .img-for-partner img {
+        width: 194px;
+        height: 48px;
+    }
+
+    .left-content h1 {
+        margin-bottom: 35px;
+    }
+
+}
+
+/* Style for 678px-429px END */
+
+/* Style for 410px-200px START */
+@media only screen and (max-width: 410px) {
+    .our-partners-content {
+        min-height: 627px;
+        background-image: url(../img/SM-MobilePartnersPage320.svg);
+    }
+
+    .general-content-partners {
+        grid-template-columns: 160px;
+        padding-left: 0;
+        padding-inline: 0;
+        justify-content: center;
+    }
+
+    .left-content {
+        gap: 54px;
+        padding-top: 60px;
+    }
+
+
+    .left-content h1 {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+    }
+
+    .all-partners {
+        display: none;
+    }
+
+    .img-for-partner img {
+        width: 194px;
+        height: 48px;
+    }
+}
+
+/* Style for 380px-321px END */
+
+
+@media only screen and (max-width: 300px) {
+    .left-content h1 {
+        font-size: 24px;
+    }
+
+}

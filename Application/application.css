@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "Montserratarm";
+    src: url(../fonts/fonts/Montserratarm-Medium/Montserratarm-Medium.ttf);
+}
+
+body {
+    font-family: "Montserratarm";
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.aplication-content {
+    width: 100%;
+    min-height: 809px;
+    background-image: url(../img/ApplicationPageView-1920px-BG.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-inline: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.left-content {
+    max-width: 1430px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 100px;
+}
+
+.left-content h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #F6F6F6;
+    margin-bottom: 90px;
+
+}
+
+
+.all-aplication {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: start;
+    color: #FFFFFF;
+}
+
+.general-content-aplication {
+    max-width: 1430px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-for-aplication {
+   
+    display: flex;
+    gap: 31px;
+}
+
+
+/* Style for 1440px-1280px START */
+
+@media only screen and (max-width: 1440px) and (min-width: 1281px) {
+    .aplication-content {
+        min-height: 610px;
+        background-image: url(../img/ApplicationPageView-1440px-BG.svg);
+    }
+
+    .left-content {
+        gap: 50px;
+    }
+
+}
+
+/* Style for 1440px-1280px END */
+
+/* Style for 1280px-968px START */
+@media only screen and (max-width: 1280px) and (min-width: 969px) {
+    .aplication-content {
+        min-height: 748px;
+        background-image: url(../img/Application-BG-1280px.svg);
+    }
+
+    .left-content {
+        gap: 50px;
+        padding-top: 46px;
+    }
+
+    .left-content h1 {
+        margin-bottom: 83px;
+    }
+}
+
+/* Style for 1280px-968px END */
+
+
+/* Style for 968px-678px START */
+
+@media only screen and (max-width: 968px) and (min-width: 679px) {
+    .all-aplication {
+        display: none;
+    }
+
+    .aplication-content {
+        min-height: 626px;
+        background-image: url(../img/ApplicationPageView-968px-BG.svg);
+    }
+
+    .left-content {
+        gap: 50px;
+        padding-top: 65px;
+    }
+
+    .left-content h1 {
+        margin-bottom: 83px;
+    }
+}
+
+/* Style for 968px-678px END */
+@media only screen and (max-width: 710px){
+    .img-for-aplication {
+        display: flex;
+        gap: 31px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .aplication-content{
+        padding-inline: 50px;
+    }
+}
+
+
+
+
+/* Style for 678px-428px START */
+@media only screen and (max-width: 678px) {
+    .all-aplication {
+        display: none;
+    }
+
+    .aplication-content {
+        min-height: 826px;
+        background-image: url(../img/ApplicationPageView-678px-BG-NEW.svg);
+    }
+
+    .left-content {
+        gap: 50px;
+        padding-top: 65px;
+    }
+
+   
+
+    .left-content h1 {
+        margin-bottom: 83px;
+    }
+
+    .img-for-aplication {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Style for 678px-428px END */
+
+
+/* Style for 678px-428px START */
+
+@media only screen and (max-width: 428px)  {
+    .all-aplication {
+        display: none;
+    }
+
+    .aplication-content {
+        min-height: 414px;
+        background-image: url(../img/ApplicationPage-428px-BG.svg);
+    }
+
+    .left-content {
+        gap: 50px;
+        padding-top: 60px;
+    }
+
+    .left-content h1 {
+        margin-bottom: 49px;
+    }
+
+    .img-for-aplication {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .aplication-content{
+        padding-inline: 16px;
+    }
+    
+}
+
+/* Style for 678px-428px END */
+
+
+
+/* Style for 428px-428px START */
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+    .all-aplication {
+        display: none;
+    }
+
+    .aplication-content {
+        min-height: 402px;
+        background-image: url(../img/MobileApplicationPage-320px-BG.svg);
+    }
+
+    .left-content {
+        gap: 50px;
+        padding-top: 67px;
+    }
+
+    .left-content h1 {
+        margin-bottom: 40px;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0em;
+    }
+
+    .img-for-aplication {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Style for 428px-428px END */
+
+
+@media only screen and (max-width: 300px) {
+    logores19.logores19 {
+        width: 70%;
+    }
+}

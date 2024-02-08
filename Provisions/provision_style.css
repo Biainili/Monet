@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "Montserratarm";
+    src: url(../fonts/fonts/Montserratarm-Medium/Montserratarm-Medium.ttf);
+}
+
+body {
+    font-family: "Montserratarm";
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.provisionSect {
+    width: 100%;
+    min-height: 797px;
+    background-image: url(/img/provisions_19.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 100px;
+}
+
+
+
+
+
+.topSpa {
+    width: 100%;
+    max-width: 1430px;
+    margin-top: 40px;
+    display: flex;
+    gap: 6px;
+
+}
+
+.topSpa a,
+span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.topSpa a:hover {
+    color: #FFB25F;
+}
+
+.topSpa a:active {
+    color: #FF7233;
+}
+
+.consH1 {
+    width: 100%;
+    max-width: 1430px;
+    margin-top: 88px;
+    /* font-size: 34px; */
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F6F6F6;
+}
+
+.consCenterH1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F6F6F6;
+    margin: 35px auto;
+}
+
+.consumerMain {
+    max-width: 1430px;
+    width: 100%;
+    min-height: 380px;
+    border-radius: 20px;
+    background: linear-gradient(122.6deg, rgba(7, 40, 138, 0.92) 0.92%, rgba(0, 20, 71, 0.92) 48.5%);
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    padding-inline: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.consumerMain {
+    min-height: 349px !important;
+}
+
+.consMainInn {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.consMainInn span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F6F6F6;
+}
+
+.consMainInn a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF9149;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.consCenterH1 {
+    display: none;
+}

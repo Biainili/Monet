@@ -1,0 +1,1217 @@
+@media screen and (max-width:1920px) {
+   footer {
+      background-size: cover;
+   }
+}
+
+
+@media screen and (max-width: 1900px) {
+   .topMid {
+      max-width: 583px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+   }
+
+   .innTop {
+      gap: 20px;
+   }
+}
+
+@media screen and (max-width: 1620px) and (min-width:1440px) {
+
+
+
+   .topRight {
+      max-width: 400px;
+   }
+
+   .rightTop button {
+      max-width: 140px;
+   }
+
+   .leftBot span {
+      font-size: 15px;
+   }
+}
+
+
+@media screen and (max-width: 1440px) {
+   footer {
+      background-image: url(../img/Footer14.png);
+      background-size: cover;
+   }
+
+
+   .leftBot {
+      height: 100%;
+   }
+
+   .rightTop button {
+      max-width: 116px;
+      width: 100%;
+   }
+
+   .leftBot span {
+      line-height: 20px;
+   }
+
+   .leftMid span {
+      text-align: left;
+
+   }
+
+   .midLeft h1 {
+      font-weight: 600;
+   }
+
+   /* .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 16px;
+      line-height: 20px;
+
+   } */
+
+   .midLeft ul,
+   .midRight ul {
+      gap: 23px;
+   }
+
+   .rbotInn ul {
+      gap: 15px;
+   }
+
+   .logores14 {
+      display: block;
+   }
+
+   .logores19 {
+      display: none;
+   }
+
+   .rightTop {
+      max-width: 350px;
+      width: 100%;
+   }
+
+   .rightTop button {
+      max-width: 116px;
+      width: 100%;
+   }
+
+   .logores12 {
+      display: none;
+   }
+
+   .topRight {
+      max-width: 350px;
+      align-items: end;
+   }
+
+   .topLeft {
+      max-width: 337px;
+      gap: 46px;
+
+   }
+
+   .topMid {
+      max-width: 448px;
+
+   }
+
+   .topRh1 {
+      max-width: 350px;
+      width: 100%;
+   }
+
+   .rightTop button {
+      font-size: 14px;
+   }
+
+   .topMid {
+      gap: 45px;
+      max-width: 534px;
+   }
+
+
+
+   .head-innDv2 ul li a {
+      text-transform: unset;
+   }
+
+   .head-innDv2 {
+      max-width: 600px;
+      width: 100%;
+
+   }
+
+
+
+
+   .leftMid,
+   .leftBot {
+      text-align: left;
+   }
+
+   .innTop {
+      justify-content: unset;
+      gap: 35px;
+   }
+
+   /* .ibotInn span {
+      font-size: 13px;
+   } */
+
+   .leftTop {
+      margin-top: 0px;
+   }
+
+   .brdis {
+      display: block;
+   }
+
+   .leftMid {
+      margin-top: -20px;
+   }
+
+   .leftBot {
+      margin-top: 10px;
+   }
+}
+
+
+
+@media screen and (max-width: 1439px) {
+
+   .topLeft {
+      max-width: 267px;
+      gap: 46px;
+   }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+
+   footer {
+      background-image: url(../img/Footer12.svg);
+      background-size: cover;
+      padding-inline: 50px;
+   }
+   .footerPage {
+      max-width: 1080px;
+      width: 100%;
+   }
+
+
+
+   .rightTop {
+      width: 340px;
+   }
+
+   .logores12 {
+      display: block;
+   }
+
+   .logores14 {
+      display: none;
+   }
+
+   .topRh1 {
+      width: 340px;
+   }
+
+   .topLeft {
+      max-width: 202px;
+      width: 100%;
+      gap: 0px;
+   }
+
+   .midLeft h1 {
+      font-size: 18px;
+   }
+
+   .midRight h1 {
+      font-size: 18px;
+   }
+
+   .res67-opening {
+      display: none;
+   }
+
+
+   /*  */
+   .topMid {
+      gap: 0px;
+      padding-left: 40px;
+
+   }
+
+   .innTop {
+      gap: 0px;
+   }
+
+   .topRight {
+      max-width: 324px;
+   }
+
+   .ibotInn span {
+      font-size: 13px;
+      line-height: 10px;
+   }
+
+   .ibotInn ul {
+      max-width: 380px;
+      align-items: flex-end;
+   }
+
+   .topMid {
+      max-width: 554px;
+   }
+
+   /*  */
+   .leftBot {
+      margin-top: 48px;
+      width: 300px;
+   }
+
+   .leftMid {
+      height: 60px;
+      margin-top: 30px;
+   }
+
+}
+
+
+@media screen and (max-width: 1150px) {
+   .topMid {
+      max-width: 554px;
+      gap: 20px;
+      padding-left: 20px;
+   }
+}
+
+
+
+
+
+
+ @media screen and (max-width: 1100px) and (min-width:968px) {
+
+   footer {
+      height: 490px;
+   }
+
+   .topMid {
+      gap: 15px;
+      max-width: 534px;
+      padding-left: 0px;
+   }
+
+   .innTop {
+      gap: 10px;
+   }
+
+
+
+
+   .rightTop button {
+      max-width: 80px;
+      width: 100%;
+   }
+
+
+   .topRight {
+      max-width: 304px;
+   }
+
+   .ibotInn span {
+      font-size: 13px;
+      line-height: 10px;
+   }
+
+   .ibotInn ul {
+      max-width: 380px;
+      align-items: flex-end;
+   }
+
+   .topMid {
+      max-width: 584px;
+
+   }
+
+   .rightTop {
+      max-width: 350px;
+      width: 100%;
+   }
+
+   .topRh1 {
+      max-width: 350px;
+      width: 100%;
+   }
+
+   .topLeft {
+      max-width: 210px;
+      gap: 30px;
+   }
+
+   .leftMid {
+      height: 40px;
+      margin-top: 0px;
+   }
+
+   .leftBot {
+      margin-top: -0px;
+      max-width: 300px;
+      width: 100%;
+   }
+
+
+
+
+
+   .ibotInn span {
+      font-size: 12px;
+   }
+
+   .ibotInn ul li a {
+      font-size: 12px;
+   }
+
+   .ibotInn ul {
+      gap: 18px;
+      margin-top: -6px;
+   }
+
+   .head-innDv2 {
+      max-width: 560px;
+      width: 100%;
+   }
+
+
+
+
+} 
+
+@media screen and (max-width: 1060px) {
+   footer {
+      padding-inline: 50px;
+   }
+}
+
+
+
+
+@media screen and (max-width: 968px) {
+   .rightTop button {
+      max-width: 116px;
+      width: 100%;
+   }
+
+   footer {
+      min-height: 770px;
+      background-image: url(/img/footer9.svg);
+   }
+
+   .innBot {
+      min-height: 85px;
+      margin-top: 30px;
+      min-height: 60px;
+   }
+
+
+   .footLogo9 {
+      display: block;
+   }
+
+ 
+
+   .innTop {
+      min-height: 584px;
+      display: flex;
+      align-items: unset;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0px;
+      position: relative;
+   }
+
+   .footerPage {
+      align-items: unset;
+   }
+
+   .logores19 {
+      display: block;
+   }
+
+   .logores12,
+   .leftMid,
+   .footLogo19,
+   .logores14 {
+      display: none;
+   }
+
+
+
+   .topRight {
+      max-width: 339px;
+      width: 100%;
+      min-height: 247px;
+      height: unset;
+      position: absolute;
+      top: 288px;
+      right: 0px;
+   }
+
+   .topRh1 {
+      max-width: 339px;
+      width: 100%;
+   }
+
+   .innMed {
+      margin-top: 0px;
+      max-width: 767px;
+      width: 100%;
+   }
+
+
+   .footerInn {
+      max-width: 768px;
+      width: 100%;
+      min-height: 720px;
+      gap: 0px;
+   }
+
+
+
+   .ibotInn {
+      max-width: 350px;
+      width: 100%;
+      height: unset;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+
+   .ibotInn span {
+      max-width: 100%;
+      width: 100%;
+      text-align: center;
+      line-height: 18px;
+      font-size: 14px;
+
+   }
+
+
+   /* 
+   .res67-opening {
+      left: 100px;
+   } */
+
+
+   .innMed hr {
+      margin-top: 0px;
+   }
+
+   .ibotInn ul li {
+      margin-top: 0px;
+   }
+
+   .ibotInn {
+      max-width: 100%;
+      min-height: unset;
+   }
+
+   .ibotInn ul {
+      gap: 33px;
+      max-width: 400px;
+      margin-top: 0px;
+   }
+
+   .leftBot {
+      max-width: 320px;
+      text-align: center;
+   }
+
+   .leftBot span {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+
+
+   }
+
+
+   .midLeft {
+      height: 197px;
+   }
+
+   .midRight {
+      height: 240px;
+      max-width: 303px;
+      width: 100%;
+   }
+
+
+   .leftBot {
+      margin-top: 0px;
+      width: 300px;
+   }
+
+   .leftTop {
+      align-items: center;
+   }
+
+   .topLeft {
+      max-width: 334px;
+      width: 100%;
+      min-height: 238px;
+      height: unset;
+      position: absolute;
+      top: 288px;
+      left: 0px;
+      gap: 30px;
+   }
+
+
+   .topMid {
+      max-width: 639px;
+      min-height: 240px;
+      height: unset;
+      justify-content: space-between;
+      padding-left: 0px;
+
+      position: absolute;
+   }
+
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .midLeft h1,
+   .midRight h1 {
+      margin-top: -5px;
+   }
+
+   .midLeft ul,
+   .midRight ul {
+      gap: 20px;
+   }
+
+   .rightTop {
+      max-width: 340px;
+      width: 100%;
+   }
+
+   .ibotInn ul li a {
+      font-size: 14px;
+   }
+
+   .brEnd {
+      display: none;
+   }
+
+}
+
+
+@media screen and (max-width:968px) {
+
+   .head-innDv2,
+   .head-innDv3 {
+      display: none;
+   }
+
+   .imgFor {
+      display: block;
+   }
+}
+
+
+
+@media screen and (max-width: 666px) and (min-width: 601px) {
+   .res67-opening {
+      left: calc(var(--screen-width) - 414px);
+   }
+}
+
+
+@media screen and (max-width: 425px) {
+   .res67-opening {
+      max-width: 250px;
+      top: 0;
+      left: calc(var(--screen-width) - 257px);
+   }
+}
+
+
+
+/* @media screen and (max-width: 666px) and (min-width: 625px) {
+   .res67-opening {
+      margin-right: calc((122% - var(--screen-width)) / 2);
+   }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:757px) {
+   .topMid {
+      min-height: 320px;
+   }
+}
+
+@media screen and (max-width:746px) {
+   .topMid {
+      min-height: 340px;
+   }
+}
+
+
+@media screen and (max-width:740px) and (min-width:678px) {
+   .topRight {
+      max-width: 300px;
+      width: 100%;
+   }
+}
+
+
+
+@media screen and (max-width:690px) {
+   .innMed {
+      max-width: 767px;
+      width: 100%;
+   }
+
+   .topMid {
+      min-height: 330px;
+   }
+}
+
+
+@media screen and (max-width:678px) {
+
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 16px;
+   }
+   .pageHeader{
+      max-width: 478px;
+      width: 100%;
+   }
+
+   footer {
+      background-image: url(../img/footer6.svg);
+      background-size: cover;
+      min-height: 1310px;
+      padding-inline: 16px;
+   }
+   .headPage{
+      padding-inline: 16px;
+   }
+
+   .innTop {
+      min-height: 1126px;
+   }
+
+   .rightMid,
+   .rightBot {
+      justify-content: center;
+   }
+
+   .rbotInn ul {
+      flex-direction: row;
+      align-items: unset;
+      gap: 24px;
+   }
+
+   .rbotInn {
+      max-width: 296px;
+      width: 100%;
+   }
+
+   .ios678N {
+      display: none;
+   }
+
+   .ios678B {
+      display: block;
+   }
+
+
+   .topMid {
+      flex-direction: column;
+      gap: 40px;
+   }
+
+   .topLeft {
+      min-height: 288px;
+      left: auto;
+      top: 837px;
+   }
+
+   .topMid {
+      min-height: 488px;
+      max-width: 480px;
+      width: 100%;
+   }
+
+   .footerInn {
+      min-height: 1220px;
+      margin-top: 60px;
+   }
+
+   .topRight {
+      margin-top: 0px;
+      max-width: 479px;
+      width: 100%;
+      right: auto;
+      top: 527px;
+   }
+
+
+   .rightTop {
+      max-width: 479px;
+      width: 100%;
+      height: 90px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   .rightTop input {
+      max-width: 479px;
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+
+   }
+
+   .rightTop button {
+      max-width: 479px;
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 1px;
+      text-align: center;
+
+
+   }
+
+   .topRh1 {
+      max-width: 479px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+
+   }
+
+   .innMed {
+      margin-top: 0px;
+   }
+
+   .ibotInn ul {
+      max-width: 350px;
+      gap: 10px;
+      justify-content: center;
+   }
+
+
+   .topLeft {
+      gap: 30px;
+   }
+
+   .innMed hr {
+      margin-top: 0px;
+      max-width: 478px;
+      width: 100%;
+   }
+
+   .innBot {
+      margin-top: 10px;
+      min-height: 80px;
+   }
+
+   .brEnd {
+      display: block;
+   }
+
+
+
+}
+
+@media screen and (max-width: 666px) {
+
+   /* .res67-opening {
+      left: 50px;
+   } */
+
+   .innTopHead {
+      padding-right: 34px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+
+   .headPage,
+   footer {
+      padding-inline: 16px;
+   }
+
+
+
+   /* .res67-opening {
+      left: 50px;
+   } */
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:428px) {
+   footer {
+      background-image: url(../img/footer4.svg);
+      background-size: cover;
+      height: 1310px;
+      padding-inline: 16px;
+
+   }
+
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 18px;
+   }
+
+   .headPage {
+      padding-inline: 16px;
+   }
+
+
+
+   /* .res67-opening {
+      left: 16px;
+   } */
+
+
+
+
+
+   .headPage, .pageHeader, header {
+      height: 71px;
+   }
+
+
+
+   .head-innDv1 {
+      justify-content: unset;
+   }
+
+   .logono {
+      display: block;
+   }
+
+   .logobl {
+      display: none;
+   }
+
+   .footLogo4 {
+      display: block;
+   }
+
+   .footLogo9 {
+      display: none;
+   }
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 381px) {
+   footer {
+      height: 1330px;
+   }
+
+   .ibotInn ul {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .innBot {
+      margin-top: 30px;
+      min-height: 85px;
+   }
+
+   .ibotInn {
+      gap: 20px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 345px) {
+
+   /* .res67-opening {
+      left: 10px;
+   } */
+
+   .ibotInn span {
+      font-size: 12px;
+   }
+
+}
+
+@media screen and (max-width: 333px) {
+   /* .res67-opening {
+      left: 7px;
+   } */
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+
+   footer {
+      background-image: url(../img/footerEnd.svg);
+      background-size: cover;
+      height: 1343px;
+   }
+
+
+   .leftBot {
+      max-width: 300px;
+      width: 100%;
+   }
+
+   .leftBot span {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
+
+   }
+
+
+   .ibotInn span {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: center;
+
+
+   }
+
+   /* .res67-opening {
+      left: 14px;
+   } */
+
+   .topRight {
+      top: 550px;
+   }
+
+   .rbotInn ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+   }
+
+   .topLeft {
+      min-height: 215px;
+      left: auto;
+      top: 900px;
+   }
+
+   .innMed hr {
+      margin-top: 15px;
+      max-width: 478px;
+      width: 100%;
+   }
+
+
+}
+
+
+@media screen and (max-width: 316px) {
+   .leftBot {
+      display: flex;
+      justify-content: center;
+   }
+
+   .leftBot span {
+      font-size: 14px;
+   }
+
+   .leftBot {
+      max-width: 280px;
+      text-align: center;
+   }
+}
+
+
+
+@media screen and (max-width: 310px) {
+   /* .res67-opening {
+      left: 7px;
+   } */
+}
+
+
+@media screen and (max-width: 304px) {
+   /* .res67-opening {
+      left: 5px;
+   } */
+}
+
+
+@media screen and (max-width: 300px) {
+
+
+
+
+
+
+
+
+   .logores19 {
+      max-width: 90%;
+
+   }
+
+}
+
+
+
+
+@media screen and (max-width: 300px) {
+   /* .res67-opening {
+      left: 0px;
+   } */
+}
+
+@media screen and (max-width: 297px) {
+   .innBot {
+      margin-top: 30px;
+      min-height: 104px;
+   }
+
+   footer {
+      height: 1350px;
+   }
+}
+
+@media screen and (max-width: 295px) {
+   /* .res67-opening {
+      left: -5px;
+   } */
+}
+
+/* @media screen and (max-width: 290px) {
+   .res67-opening {
+      left: -10px;
+   }
+}
+
+@media screen and (max-width: 285px) {
+   .res67-opening {
+      left: -15px;
+   }
+}
+
+@media screen and (max-width: 280px) {
+   .res67-opening {
+      left: -20px;
+   }
+
+
+
+}
+
+@media screen and (max-width: 275px) {
+   .res67-opening {
+      left: -25px;
+   }
+}
+
+@media screen and (max-width: 270px) {
+   .res67-opening {
+      left: -32px;
+   } */
+
+.midLeft ul li a,
+.midRight ul li a {
+   font-size: 16px;
+}
+
+.leftBot span {
+   font-size: 12px;
+}
+
+.ibotInn ul li a {
+   font-size: 12px;
+}
+
+
+@media screen and (max-width: 265px) {
+   .res67-opening {
+      left: -35px;
+   }
+
+   .aboutMonet1 {
+      margin-bottom: 15px;
+      font-size: 17px;
+   }
+
+   .midLeft ul,
+   .midRight ul {
+      gap: 15px;
+   }
+}

@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "Montserratarm";
+    src: url(../fonts/fonts/Montserratarm-Medium/Montserratarm-Medium.ttf);
+}
+
+body {
+    font-family: "Montserratarm";
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+.reportSection{
+    width: 100%;
+    height: 771px;
+    padding-inline: 100px;
+    background-image: url(../img/AccountingPageReport19.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.repSect{
+    max-width: 1430px;
+width: 100%;
+min-height: 277px;
+display: flex;
+flex-direction: column;
+
+}
+
+.topSpa {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    gap: 6px;
+
+}
+.topSpa a,
+span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.topSpa a:hover {
+    color: #FFB25F;
+}
+
+.topSpa a:active {
+    color: #FF7233;
+}
+.reportH{
+    margin-top: 100px;
+/* font-size: 34px; */
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+}
+
+.finRep{
+margin-top: 50px;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6B2;
+}
