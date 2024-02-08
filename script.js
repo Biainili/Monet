@@ -1,3 +1,4 @@
+{
 function openerMenu() {
   const opening = document.getElementById('headMenu');
   opening.style.display = 'flex';
@@ -49,7 +50,7 @@ window.onresize = function () {
   closeMenu();
 };
 
-// <= Function to open menu mobile and tools 
+}// <= Function to open menu mobile and tools 
 
 {
   function openNewPage(url) {
@@ -108,10 +109,10 @@ window.onresize = function () {
     let imgElement = document.getElementById(imgID);
     imgElement.src = element.style.display === 'none' ? './img/arrow-to-down.png' : './img/arrow-to-up.png';
   }
+} // function for answer
 
 
 
-}
 
 
 {
@@ -155,48 +156,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-// const sect2V3 = document.querySelector('.sect2V3');
-// const sect2V4 = document.querySelector('.sect2V4');
-
-// const options = {
-//   threshold: 0.9,
-// };
-
-// function handleIntersection(entries) {
-//   entries.forEach((entry) => {
-//     if (entry.target === sect2V3) {
-//       if (entry.isIntersecting) {
-//         sect2V3.style.animationPlayState = 'running';
-//       } else {
-//         sect2V3.style.animationPlayState = 'paused';
-//       }
-//     } else if (entry.target === sect2V4) {
-//       if (entry.isIntersecting) {
-//         sect2V4.style.animationPlayState = 'running';
-//       } else {
-//         sect2V4.style.animationPlayState = 'paused';
-//       }
-//     }
-//   });
-// }
-
-// const observer1 = new IntersectionObserver(handleIntersection, options);
-// const observer2 = new IntersectionObserver(handleIntersection, options);
-
-// observer1.observe(sect2V3);
-// observer2.observe(sect2V4);
-
-
 const circle = document.querySelector('.orangeCircle1');
 
-// Function to move the circle to a random position
-function moveCircle() {
-  // Generate random values for the top and left properties
-  const top = Math.random() * 80 + 10; // Top position between 10% and 90%
-  const left = Math.random() * 80 + 10; // Left position between 10% and 90%
 
-  // Set the new position
+function moveCircle() {
+  const top = Math.random() * 80 + 10; 
+  const left = Math.random() * 80 + 10; 
+
   circle.style.top = `${top}%`;
   circle.style.left = `${left}%`;
 }
@@ -204,71 +170,8 @@ function moveCircle() {
 setInterval(moveCircle, 2000);
 
 
-
-
-
-
-
-// const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm,');
-
-// const options = {
-//   threshold: 0.9,
-// };
-
-// function handleIntersection(entries) {
-//   entries.forEach((entry) => {
-//     const target = entry.target;
-//     const animationState = entry.isIntersecting ? 'running' : 'paused';
-//     target.style.animationPlayState = animationState;
-//   });
-// }
-
-// const observer = new IntersectionObserver(handleIntersection, options);
-
-// elements.forEach((element) => {
-//   observer.observe(element);
-// });
-
-
-
-
-
-
-// const elementSelectors = [ 
-//   '.letter_lines', '.letter_content', '.class-m', '.class-n', '.class-e', 
-//   '.class-t', '.logo_name_text', '.monet_row_symbol', '.monet_row_symbol_img', 
-//   '.third-img-element_3', '.second-img-element_4', '.quarters-img-element_1', 
-//   '.quarters-img-element_7', '.quarters-img-element_5', '.quarters_left_contant_bg'
-// ]; 
- 
-// const options = { 
-//   threshold: 0.9, 
-// }; 
- 
-// const options_A = { 
-//   threshold: 0.4, 
-// }; 
- 
-// function handleIntersection(entry, element) { 
-//   if (entry.isIntersecting) { 
-//     element.style.animationPlayState = 'running'; 
-//   } else { 
-//     element.style.animationPlayState = 'paused'; 
-//   } 
-// } 
- 
-// const observers = elementSelectors.map((selector, index) => { 
-//   const element = document.querySelector(selector); 
-//   const observerOptions = index === elementSelectors.length - 1 ? options_A : options; 
-//   const observer = new IntersectionObserver((entries) => { 
-//     handleIntersection(entries[0], element); 
-//   }, observerOptions); 
- 
-//   observer.observe(element); 
-//   return observer; 
-// });
-
-const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg');
+{
+const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg, .second-img-element_4');
 
 const options = {
   threshold: 0.9,
@@ -295,3 +198,64 @@ const observers = Array.from(elements).map((element, index) => {
   observer.observe(element);
   return observer;
 });
+
+
+} // => for animation scroll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const elementSelectors = [ 
+//   '.letter_lines', '.letter_content', '.class-m', '.class-n', '.class-e', 
+//   '.class-t', '.logo_name_text', '.monet_row_symbol', '.monet_row_symbol_img', 
+//   '.third-img-element_3', '.second-img-element_4', '.quarters-img-element_1', 
+//   '.quarters-img-element_7', '.quarters-img-element_5', '.quarters_left_contant_bg'
+// ]; 
+
+// const options = { 
+//   threshold: 0.9, 
+// }; 
+
+// const options_A = { 
+//   threshold: 0.4, 
+// }; 
+
+// function handleIntersection(entry, element) { 
+//   if (entry.isIntersecting) { 
+//     element.style.animationPlayState = 'running'; 
+//   } else { 
+//     element.style.animationPlayState = 'paused'; 
+//   } 
+// } 
+
+// const observers = elementSelectors.map((selector, index) => { 
+//   const element = document.querySelector(selector); 
+//   const observerOptions = index === elementSelectors.length - 1 ? options_A : options; 
+//   const observer = new IntersectionObserver((entries) => { 
+//     handleIntersection(entries[0], element); 
+//   }, observerOptions); 
+
+//   observer.observe(element); 
+//   return observer; 
+// });
