@@ -1,3 +1,4 @@
+{
 function openerMenu() {
   const opening = document.getElementById('headMenu');
   opening.style.display = 'flex';
@@ -49,7 +50,7 @@ window.onresize = function () {
   closeMenu();
 };
 
-// <= Function to open menu mobile and tools 
+}// <= Function to open menu mobile and tools 
 
 {
   function openNewPage(url) {
@@ -108,10 +109,10 @@ window.onresize = function () {
     let imgElement = document.getElementById(imgID);
     imgElement.src = element.style.display === 'none' ? './img/arrow-to-down.png' : './img/arrow-to-up.png';
   }
+} // function for answer
 
 
 
-}
 
 
 {
@@ -155,6 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -164,6 +166,15 @@ function moveCircle() {
   const top = Math.random() * 80 + 10; 
   const left = Math.random() * 80 + 10;
 
+=======
+const circle = document.querySelector('.orangeCircle1');
+
+
+function moveCircle() {
+  const top = Math.random() * 80 + 10; 
+  const left = Math.random() * 80 + 10; 
+
+>>>>>>> bbdd69d0d4c48b78c44e07bf5ba83deb81e980a0
   circle.style.top = `${top}%`;
   circle.style.left = `${left}%`;
 }
@@ -171,6 +182,7 @@ function moveCircle() {
 setInterval(moveCircle, 2000);
 
 
+<<<<<<< HEAD
 
 
 
@@ -180,6 +192,10 @@ setInterval(moveCircle, 2000);
 
 
 const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg');
+=======
+{
+const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg, .second-img-element_4');
+>>>>>>> bbdd69d0d4c48b78c44e07bf5ba83deb81e980a0
 
 const options = {
   threshold: 0.9,
@@ -206,3 +222,64 @@ const observers = Array.from(elements).map((element, index) => {
   observer.observe(element);
   return observer;
 });
+
+
+} // => for animation scroll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const elementSelectors = [ 
+//   '.letter_lines', '.letter_content', '.class-m', '.class-n', '.class-e', 
+//   '.class-t', '.logo_name_text', '.monet_row_symbol', '.monet_row_symbol_img', 
+//   '.third-img-element_3', '.second-img-element_4', '.quarters-img-element_1', 
+//   '.quarters-img-element_7', '.quarters-img-element_5', '.quarters_left_contant_bg'
+// ]; 
+
+// const options = { 
+//   threshold: 0.9, 
+// }; 
+
+// const options_A = { 
+//   threshold: 0.4, 
+// }; 
+
+// function handleIntersection(entry, element) { 
+//   if (entry.isIntersecting) { 
+//     element.style.animationPlayState = 'running'; 
+//   } else { 
+//     element.style.animationPlayState = 'paused'; 
+//   } 
+// } 
+
+// const observers = elementSelectors.map((selector, index) => { 
+//   const element = document.querySelector(selector); 
+//   const observerOptions = index === elementSelectors.length - 1 ? options_A : options; 
+//   const observer = new IntersectionObserver((entries) => { 
+//     handleIntersection(entries[0], element); 
+//   }, observerOptions); 
+
+//   observer.observe(element); 
+//   return observer; 
+// });

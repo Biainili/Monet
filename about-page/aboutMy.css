@@ -407,9 +407,9 @@ ul {
 }
 
 .logo_name_text {
-    width: 655px;
+    width: 665px;
     text-transform: uppercase;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-size: 64px;
     font-weight: 700;
     line-height: 75px;
@@ -450,7 +450,7 @@ ul {
     animation: openFromLeft 2s ease-in-out;
     white-space: nowrap;
     overflow: hidden;
-    margin-bottom: -55px;
+    margin-bottom: -25px;
 }
 
 @keyframes openFromLeft {
@@ -571,6 +571,7 @@ ul {
     animation: spinR 2s linear;
     animation-delay: 1s;
     margin-top: 10px;
+    margin-left: 7px;
 }
 
 .class-t {
@@ -580,8 +581,8 @@ ul {
     background-image: url(../img/Only-T.svg);
     background-size: 88%;
     background-repeat: no-repeat;
-    background-position-y: 0px;
-    background-position-x: 12px;
+    background-position-y: 4px;
+    background-position-x: 7px;
     animation: spinR 2s linear;
     animation-delay: 1s;
     overflow: visible;
@@ -3242,285 +3243,286 @@ ul {
         }
     }
 
-/* 
+    /* 
 Stexic-1 */
 
 
 
 
-.first-img-element_6 {
-    width: 3.183vw;
-    height: 3.183vw;
-    border: 4.92px solid #FF9149;
+    .first-img-element_6 {
+        width: 3.183vw;
+        height: 3.183vw;
+        border: 4.92px solid #FF9149;
+    }
+
+    .first-img-element_5 {
+        position: absolute;
+        border: 3.92px solid #FF9149;
+        border-radius: 50%;
+        width: 1.802vw;
+        height: 1.802vw;
+    }
+
+
+
+
+    .pageHeader {
+        height: 71px !important;
+    }
+
+
+    .low-block-symbolism {
+        max-width: 393px;
+        width: 100%;
+    }
+
+    .letter-m {
+        max-width: 393px;
+        width: 100%;
+    }
+
+    .arrows {
+        max-width: 393px;
+        width: 100%;
+        margin-bottom: -26px;
+    }
+
+    .circel {
+        max-width: 393px;
+        width: 100%;
+    }
+
+    .circel span {
+        width: 286px;
+    }
+
+    .arrows span {
+        max-width: 342px;
+        width: 100%;
+    }
+
+    .letter-m span {
+        width: 250px;
+    }
+
+    .low-block-symbolism {
+        flex-direction: column;
+        align-self: center;
+        gap: 78px;
+    }
+
+    .all-about {
+        display: none;
+    }
+
+    .first-section-ab {
+        padding-inline: 0px;
+        min-height: 584px;
+    }
+
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-inline: 16px;
+    }
+
+    .container-about h1 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 42px;
+        margin-bottom: 11px;
+    }
+
+    .container-about h4 {
+        width: 202px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .container-about span {
+        max-width: 378px;
+        width: 100%;
+        font-size: 17.12px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: -12px;
+    }
+
+    .second-section-ab {
+        margin-top: -1px;
+        height: 1752px;
+    }
+
+    .history-contatnt {
+        padding-inline: 16px;
+        gap: 16px;
+    }
+
+
+    .history-contatnt h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+
+    .history-contatnt h4 {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 27px;
+    }
+
+    .history-contatnt span {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+        align-self: center;
+    }
+
+    .content-secton-second {
+        top: 50px;
+        gap: 30px;
+    }
+
+    .quarters_left_contant_bg,
+    .third-img-element_3 {
+        display: none;
+    }
+
+    .all-contact-details h1 {
+        margin-bottom: 14px;
+    }
+
+    .quarters-img-element_2 {
+        width: 68.844vw;
+        height: 68.844vw;
+        left: 68.167vw;
+        top: 9.354vw;
+    }
+
+    .history-symbolism h4 {
+        text-transform: uppercase;
+        padding-inline: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-top: 2px;
+    }
+
+    .history-symbolism {
+        gap: 22px;
+
+    }
+
+    .second-img-element_1 {
+        width: 53vw;
+        height: 52vw;
+        left: 64.167vw;
+        top: 35.354vw;
+    }
+
+    .circel img {
+        width: 150px;
+        height: 162px;
+    }
+
+    .circel h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .arrows h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+    .letter-m h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+    }
+
+
+
+    .letter-m img {
+        width: 114.957px;
+        height: 178.955px;
+    }
+
+
+    .third-section-ab {
+        margin-top: -1px;
+        padding-inline: 0px;
+        min-height: 905px;
+    }
+
+    .third-section-content h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .third-section-content ul li a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .third-section-content {
+        top: 53px;
+        gap: 30px;
+        padding-inline: 16px;
+    }
+
+    .third-section-content ul {
+        gap: 20px
+    }
+
+    .third-section-content ul li {
+        max-width: 370px;
+    }
+
+    .contact-details {
+        padding-inline: 16px;
+        top: 72px;
+        gap: 4px
+    }
+
+    .quarters-section-ab {
+        min-height: 555px;
+    }
+
+    .contact-details h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .all-contact-details h1 {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+    }
+
+
 }
 
-.first-img-element_5 {
-    position: absolute;
-    border: 3.92px solid #FF9149;
-    border-radius: 50%;
-    width: 1.802vw;
-    height: 1.802vw;
-}
-
-
-
-
-.pageHeader {
-    height: 71px !important;
-}
-
-
-.low-block-symbolism {
-    max-width: 393px;
-    width: 100%;
-}
-
-.letter-m {
-    max-width: 393px;
-    width: 100%;
-}
-
-.arrows {
-    max-width: 393px;
-    width: 100%;
-    margin-bottom: -26px;
-}
-
-.circel {
-    max-width: 393px;
-    width: 100%;
-}
-
-.circel span {
-    width: 286px;
-}
-
-.arrows span {
-    max-width: 342px;
-    width: 100%;
-}
-
-.letter-m span {
-    width: 250px;
-}
-
-.low-block-symbolism {
-    flex-direction: column;
-    align-self: center;
-    gap: 78px;
-}
-
-.all-about {
-    display: none;
-}
-
-.first-section-ab {
-    padding-inline: 0px;
-    min-height: 584px;
-}
-
-.container-about {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding-inline: 16px;
-}
-
-.container-about h1 {
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 42px;
-    margin-bottom: 11px;
-}
-
-.container-about h4 {
-    width: 202px;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 10px;
-}
-
-.container-about span {
-    max-width: 378px;
-    width: 100%;
-    font-size: 17.12px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-bottom: -12px;
-}
-
-.second-section-ab {
-    margin-top: -1px;
-    height: 1752px;
-}
-
-.history-contatnt {
-    padding-inline: 16px;
-    gap: 16px;
-}
-
-
-.history-contatnt h1 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 10px;
-}
-
-
-.history-contatnt h4 {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    margin-bottom: 27px;
-}
-
-.history-contatnt span {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.05em;
-    width: 100%;
-    text-align: center;
-    align-self: center;
-}
-
-.content-secton-second {
-    top: 50px;
-    gap: 30px;
-}
-
-.quarters_left_contant_bg,
-.third-img-element_3 {
-    display: none;
-}
-
-.all-contact-details h1 {
-    margin-bottom: 14px;
-}
-
-.quarters-img-element_2 {
-    width: 68.844vw;
-    height: 68.844vw;
-    left: 68.167vw;
-    top: 9.354vw;
-}
-
-.history-symbolism h4 {
-    text-transform: uppercase;
-    padding-inline: 16px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    margin-top: 2px;
-}
-
-.history-symbolism {
-    gap: 22px;
-
-}
-
-.second-img-element_1 {
-    width: 53vw;
-    height: 52vw;
-    left: 64.167vw;
-    top: 35.354vw;
-}
-
-.circel img {
-    width: 150px;
-    height: 162px;
-}
-
-.circel h1 {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 0.05em;
-}
-
-.arrows h1 {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 0.05em;
-}
-
-.letter-m h1 {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 0.05em;
-}
-
-
-
-.letter-m img {
-    width: 114.957px;
-    height: 178.955px;
-}
-
-
-.third-section-ab {
-    margin-top: -1px;
-    padding-inline: 0px;
-    min-height: 905px;
-}
-
-.third-section-content h1 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-}
-
-.third-section-content ul li a {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.third-section-content {
-    top: 53px;
-    gap: 30px;
-    padding-inline: 16px;
-}
-
-.third-section-content ul {
-    gap: 20px
-}
-
-.third-section-content ul li {
-    max-width: 370px;
-}
-
-.contact-details {
-    padding-inline: 16px;
-    top: 72px;
-    gap: 4px
-}
-
-.quarters-section-ab {
-    min-height: 555px;
-}
-
-.contact-details h1 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-}
-
-.all-contact-details h1 {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0em;
-}
-
-
-}
 /* Style for 480px-321px END */
 
 
@@ -3567,16 +3569,94 @@ Stexic-1 */
 
     .letter_lines {
         max-width: 288px;
-        min-height: 65px;
+        min-height: 68px;
         width: 100%;
         margin-bottom: -40px;
     }
 
     .letter_content {
-        max-width: 240px;
+        max-width: 250px;
         width: 100%;
-        min-height: 61px;
+        margin-top: -10px;
     }
+
+
+    .class-m {
+        max-width: 50px;
+        height: 50px;
+        background-position-y: 0px;
+        background-position-x: 0px;
+        margin-top: 5px;
+    }
+
+    .class-o {
+        max-width: 50px;
+        height: 50px;
+        background-position-y: 0px;
+        background-position-x: 0px;
+        margin-top: 20px;
+    }
+
+    .class-n {
+        max-width: 50px;
+        min-height: 50px;
+        background-position-y: 1px;
+        background-position-x: 1px;
+        margin-top: 0px;
+        margin-left: 0px;
+        background-size: 100%;
+    }
+
+    .class-e {
+        max-width: 50px;
+        min-height: 50px;
+        background-position-y: 0px;
+        background-position-x: 1px;
+        margin-top: 0px;
+        margin-left: 0px;
+        background-size: 98%;
+    }
+
+    .class-t {
+        max-width: 60px;
+        height: 58px;
+        background-position-y: 5px;
+        background-position-x: 4px;
+    }
+
+    .second-img-element_1 {
+        width: 80vw;
+        height: 80vw;
+        left: 64.167vw;
+        top: 40.354vw;
+    }
+
+    .monet_row_symbol {
+        width: 288px;
+        height: 100px;
+        animation: openFromLeft_Symbol_A_SX 2s ease-in-out;
+    }
+
+    @keyframes openFromLeft_Symbol_A_SX {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 288px;
+        }
+    }
+
+    .first-img-element_3,
+    .quarters_left_contant_bg,
+    .third-img-element_3 {
+        display: none;
+    }
+
+    .logo_name_text {
+        width: 220px;
+    }
+
 
     .letter-m {
         width: 100%;
@@ -3685,12 +3765,12 @@ Stexic-1 */
         letter-spacing: 0.05em;
         max-width: 274px;
         width: 100%;
-        margin-top: 0px;
+        margin-top: 16px;
     }
 
     .content-secton-second {
         top: 50px;
-        gap: 40px
+        gap: 35px;
     }
 
 
@@ -3704,9 +3784,8 @@ Stexic-1 */
     }
 
     .history-symbolism {
-        gap: 22px;
+        gap: 10px;
     }
-
 
 
 
