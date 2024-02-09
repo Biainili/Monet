@@ -1004,7 +1004,9 @@
 
 @media screen and (max-width: 320px) {
 
-
+   .headPage, .pageHeader, header {
+      height: 84px;
+  }
    footer {
       background-image: url(../img/footerEnd.svg);
       background-size: cover;
