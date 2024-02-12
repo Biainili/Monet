@@ -205,9 +205,7 @@
 
 
 
-   .sect_5 {
-      background-image: url(./img/sect_5_14.svg);
-   }
+ 
 
 
    .thrdGroupTop {
@@ -760,9 +758,7 @@
 
 
 
-   .sect_5 {
-      background-image: url(./img/sect_5_12.svg);
-   }
+
 
    .sect_1 {
       min-height: 1030px;
@@ -1021,7 +1017,7 @@
 
 
    .sect_5 {
-      padding-inline: 145px;
+      padding-inline: 0px;
       height: 700px;
    }
 
@@ -1188,13 +1184,6 @@
    .GrMidInn {
       max-width: 425px;
       width: 100%;
-   }
-
-   .fifGrMid {
-      gap: 30px;
-      max-width: 620px;
-      width: 100%;
-      justify-content: center;
    }
 
    .firstMain {
@@ -1427,11 +1416,6 @@
       padding-inline: 20px;
    }
 
-
-
-   .sect_5 {
-      background-image: url(./img/sect_5_922.svg);
-   }
 
 
 
@@ -2349,9 +2333,7 @@
 
 
 
-   .sect_5 {
-      background-image: url(./img/sect_5_6.svg);
-   }
+  
 
    .rectangl {
       background-image: url(./img/sect_1Rect6.svg);
@@ -2940,12 +2922,6 @@
       right: -69.9%;
    }
 
-
-
-
-   .sect_5 {
-      background-image: url(./img/sect_5_4.svg);
-   }
 
 
    .circlPhone9 {
@@ -3897,11 +3873,6 @@
 
 
 
-
-
-   .sect_5 {
-      background-image: url(./img/sect_3-5.svg);
-   }
 
    .frMainRight img {
       margin-top: -50px;

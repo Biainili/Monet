@@ -378,14 +378,14 @@ ul {
     background-size: cover;
     top: 67px;
     left: 39px;
-    animation: ekavvv 5s ease-in-out forwards;
+    animation: ekav 5s ease-in-out forwards;
     z-index: -1;
     transform: rotate(322deg);
 }
 
 @keyframes ekav {
     0% {
-        /* transform: rotate(-322deg); */
+        transform: rotate(-322deg);
         top: 200px;
         left: 100px;
         opacity: 0;
@@ -485,29 +485,29 @@ ul {
 }
 
 .it1_1 {
-    animation: kitt 4s linear forwards;
+    animation: kitt 2s linear forwards;
 }
 
 
 .it2_1 {
-    animation: kitt 6s linear forwards;
+    animation: kitt 3s linear forwards;
 
 }
 
 
 .it3_1 {
-    animation: kitt 8s ease forwards;
+    animation: kitt 9s ease forwards;
 
 }
 
 
 .it4_1 {
-    animation: kitt 10s ease forwards;
+    animation: kitt 12s ease forwards;
 
 }
 
 .it5_1 {
-    animation: kitt 12s ease forwards;
+    animation: kitt 15s ease forwards;
 
 }
 
@@ -1509,10 +1509,138 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/sect_5_19.svg);
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(#0A30A3, #001447);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
+
+
+
+
+
+
+
+.monetSect5 {
+    position: absolute;
+    background-image: url(./img/monetSect5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 289px;
+    height: 194px;
+    top: 82%;
+    left: 9%;
+    z-index: -1;
+    animation: monB 3s ease-in-out forwards;
+
+}
+
+@keyframes monB {
+    0% {
+        top: 98%;
+        left: 0%;
+    }
+
+    100% {
+        top: 82%;
+        left: 9%;
+    }
+}
+
+.circleSect5 {
+    position: absolute;
+    background-image: url(./img/sect_1V2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 617px;
+    height: 617px;
+    top: -55%;
+    right: -12%;
+    z-index: 0;
+    animation: cirT 10s linear infinite;;
+}
+
+
+@keyframes cirT {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.miniCircle {
+    display: flex;
+    gap: 31px;
+    z-index: 1;
+    position: absolute;
+    top: 82px;
+    right: 200px;
+    transform: rotate(314deg);
+}
+
+/* .miniItems {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 4px solid #FFFFFF;
+} */
+
+
+.miniItems {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 4px solid #FFFFFF;
+    animation: scaleAndRotate 4s linear infinite;
+  }
+  
+  @keyframes scaleAndRotate {
+    0% {
+      transform: rotate(0deg) scale(0.5);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.5);
+    }
+    100% {
+      transform: rotate(360deg) scale(0.5);
+    }
+  }
+
+
+  .rainy5 {
+    position: absolute;
+    width: 273px;
+    height: 310px;
+    background-image: url(./img/rain1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -13%;
+    right: 5%;
+    animation: comeRain5 2s ease infinite;
+    animation-duration: 10s;
+}
+
+@keyframes comeRain5 {
+    0% {
+        height: 0px;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        height: 310px;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
 
 .fifGroup {
     max-width: 1300px;
