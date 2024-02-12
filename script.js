@@ -155,26 +155,23 @@
   setInterval(moveCircle, 2000);
 } // function animation for home page
 
+{
+  const circle = document.querySelector('.orangeCircle1');
+  function moveCircle() {
+    const top = Math.random() * 80 + 10;
+    const left = Math.random() * 80 + 10;
 
-  
-  
-  // {
-  // const circle = document.querySelector('.orangeCircle1');
-  // function moveCircle() {
-  //   const top = Math.random() * 80 + 10; 
-  //   const left = Math.random() * 80 + 10; 
-  
-  //   circle.style.top = `${top}%`;
-  //   circle.style.left = `${left}%`;
-  // }
-  
-  // setInterval(moveCircle, 2000);
-  // } // function animation for home page
-  
-  {
-    const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg, .second-img-element_4, .it1_1, .it1_2, .it1_3, .it1_4, .it1_5');
+    circle.style.top = `${top}%`;
+    circle.style.left = `${left}%`;
+  }
 
-  
+  setInterval(moveCircle, 2000);
+} // function animation for home page
+
+{
+  const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg, .second-img-element_4, .it1_1, .it1_2, .it1_3, .it1_4, .it1_5');
+
+
   const options = {
     threshold: 0.9,
   };
