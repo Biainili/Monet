@@ -25,13 +25,12 @@ ul {
 }
 
 .main-section-law {
+    position: relative;
     width: 100%;
     min-height: 1511px;
-    background-image: url(../img/LawPageView-1920PX-BG.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(100.09deg, #0A30A3 0%, #001447 58.57%);
     padding-inline: 100px;
+    overflow: hidden;
 }
 
 .newDiv {
@@ -49,8 +48,9 @@ ul {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top: 10px;
     gap: 100px;
+    z-index: 2;
 
 }
 
@@ -70,6 +70,7 @@ ul {
     flex-direction: column;
     gap: 50px;
     padding-bottom: 128px;
+
 }
 
 .general-container h1 {
@@ -80,6 +81,7 @@ ul {
     letter-spacing: 0em;
     color: #F6F6F6;
     text-align: center;
+    z-index: 1;
 }
 
 .left-content h1 {
@@ -94,6 +96,7 @@ ul {
 }
 
 .main-law-desk {
+    z-index: 1;
     width: 100%;
     align-self: center;
     min-height: 1038px;
@@ -152,12 +155,248 @@ ul {
 }
 
 
+.bg_img_law_1 {
+    position: absolute;
+    width: 18.854vw;
+    height: 18.854vw;
+    background-repeat: no-repeat;
+    left: -2.604vw;
+    top: -10.417vw;
+    z-index: 0;
+    background-size: cover;
+    background-image: url("../img/first-img-element_1.svg");
+}
+
+.bg_img_law_2 {
+    position: absolute;
+    width: 53.854vw;
+    height: 53.854vw;
+    background-repeat: no-repeat;
+    left: -24.833vw;
+    top: -23.646vw;
+    z-index: 0;
+    background-size: cover;
+    background-image: url("../img/first-img-element_2_A.png");
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bg_img_law_3 {
+    position: absolute;
+    width: 30.208vw;
+    height: 30.208vw;
+    right: -13.021vw;
+    top: -20.104vw;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+    background-image: url("../img/first-img-element_3_a.svg");
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bg_img_law_4 {
+    position: absolute;
+    width: 38.552vw;
+    height: 21.8vw;
+    left: 47.979vw;
+    top: 18.896vw;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+    background-image: url(../img/first-img-element_4.svg);
+    animation: appearFromRight 1.2s ease-in-out;
+    transform: rotate(10deg);
+}
+
+@keyframes appearFromRight {
+    0% {
+        left: 39.979vw;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        left: 47.979vw;
+    }
+}
+
+.bg_img_law_5 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-repeat: no-repeat;
+    left: 75.167vw;
+    top: 65.646vw;
+    z-index: 9;
+    background-size: cover;
+    background-image: url(../img/third-img-element_1.svg);
+    animation: fallInFromTopRight_law 2.4s ease-in-out infinite;
+
+}
+
+@keyframes fallInFromTopRight_law {
+    0% {
+        top: 49vw;
+        left: 100vw;
+        height: 210px;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    100% {
+        top: 65.646vw;
+        left: 75.167vw;
+        opacity: 0;
+        height: 210px;
+        ;
+    }
+}
+
+.bg_img_law_6 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-repeat: no-repeat;
+    left: 75.167vw;
+    top: 75.646vw;
+    z-index: 9;
+    background-size: cover;
+    background-image: url(../img/third-img-element_1.svg);
+    animation: fallInFromTopRight_law-A 2s ease-in-out infinite;
+
+}
+
+@keyframes fallInFromTopRight_law-A {
+    0% {
+        top: 54vw;
+        left: 100vw;
+        height: 210px;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    100% {
+        top: 75.646vw;
+        left: 75.167vw;
+        opacity: 0;
+        height: 210px;
+        ;
+    }
+}
+
+.bg_img_law_7 {
+    position: absolute;
+    width: 110px;
+    height: 70px;
+    background-image: url(../img/logo_run_monet.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50vw;
+    left: 82vw;
+    transform: rotate(37deg);
+    z-index: 1;
+    animation: fifth_M 85s linear infinite;
+}
+
+@keyframes fifth_M {
+    0% {
+        top: 80%;
+        left: 8%;
+        transform: rotate(0deg);
+    }
+
+    10% {
+        top: 50%;
+        left: 90%;
+        transform: rotate(20deg);
+    }
+
+
+    20% {
+        top: 28%;
+        left: 0%;
+        transform: rotate(50deg);
+    }
+
+    30% {
+        top: 95%;
+        left: 70%;
+        transform: rotate(90deg);
+    }
+
+    40% {
+        top: 18%;
+        left: 90%;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        top: 20%;
+        left: 45%;
+        transform: rotate(100deg);
+    }
+
+    60% {
+        top: 90%;
+        left: 29%;
+    }
+
+    70% {
+        top: 35%;
+        left: 0%;
+        transform: rotate(0deg);
+    }
+
+    80% {
+        top: 95%;
+        left: 80%;
+        transform: rotate(-70deg);
+    }
+
+    90% {
+        top: 56%;
+        left: 0%;
+        transform: rotate(-170deg);
+    }
+
+
+    100% {
+        top: 17%;
+        left: 8%;
+        transform: rotate(-360deg);
+    }
+}
+
+
+
 /* Style for 1440px-1281px START */
 
 @media only screen and (max-width: 1440px) and (min-width: 1281px) {
     .main-section-law {
         min-height: 1398px;
-        background-image: url(../img/LawPageView-1440px-BG.svg);
         padding-inline: 100px;
     }
 
@@ -203,6 +442,256 @@ ul {
     .newDiv {
         height: 202px;
     }
+
+    /* Animations start */
+
+    .bg_img_law_1 {
+        width: 12.854vw;
+        height: 12.854vw;
+        left: -4.604vw;
+        top: -5.417vw;
+    }
+
+    .bg_img_law_2 {
+        width: 28.854vw;
+        height: 28.854vw;
+        left: -10.833vw;
+        top: -11.646vw;
+    }
+
+    .bg_img_law_3 {
+        width: 22.208vw;
+        height: 22.208vw;
+        right: -9.021vw;
+        top: -11.104vw;
+    }
+
+    .bg_img_law_4 {
+        left: 52.979vw;
+        top: 24.896vw;
+        width: 40.552vw;
+        height: 21.8vw;
+        animation: appearFromRight_XXL 1.2s ease-in-out;
+        transform: rotate(10deg);
+    }
+
+    @keyframes appearFromRight_XXL {
+        0% {
+            left: 44.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 52.979vw;
+        }
+    }
+
+    .bg_img_law_5 {
+        left: 75.167vw;
+        top: 85.646vw;
+        animation: fallInFromTopRight_law_XXL 2.4s ease-in-out infinite;
+    }
+
+    @keyframes fallInFromTopRight_law_XXL {
+        0% {
+            top: 69vw;
+            left: 95vw;
+            height: 210px;
+        }
+
+        40% {
+            opacity: 0.4;
+        }
+
+        100% {
+            top: 85.646vw;
+            left: 75.167vw;
+            opacity: 0;
+            height: 210px;
+            ;
+        }
+    }
+
+
+    .bg_img_law_6 {
+        left: 75.167vw;
+        top: 95.646vw;
+        animation: fallInFromTopRight_law-A_XXL 2s ease-in-out infinite;
+    }
+
+    @keyframes fallInFromTopRight_law-A_XXL {
+        0% {
+            top: 74vw;
+            left: 100vw;
+            height: 210px;
+        }
+
+        40% {
+            opacity: 0.4;
+        }
+
+        100% {
+            top: 95.646vw;
+            left: 75.167vw;
+            opacity: 0;
+            height: 210px;
+            ;
+        }
+    }
+
+
+    .ty_1 {
+        animation: fifth_M_ty_1 85s linear infinite;
+    }
+
+    @keyframes fifth_M_ty_1 {
+        0% {
+            top: 20%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 70%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 22%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 65%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 88%;
+            left: 60%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 5%;
+            left: 15%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 73%;
+            left: 96%;
+        }
+
+        70% {
+            top: 15%;
+            left: 1%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 81%;
+            left: 40%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: 5%;
+            left: 90%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: 95%;
+            left: 30%;
+            transform: rotate(-360deg);
+        }
+    }
+
+
+    .ty_2 {
+        animation: fifth_M_ty_2 85s linear infinite;
+    }
+
+    @keyframes fifth_M_ty_2 {
+        0% {
+            top: 35%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 85%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 44%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 8%;
+            left: 60%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 78%;
+            left: 15%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 1%;
+            left: 96%;
+        }
+
+        70% {
+            top: 85%;
+            left: 1%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 6%;
+            left: 96%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: 5%;
+            left: 40%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: 95%;
+            left: 95%;
+            transform: rotate(-360deg);
+        }
+    }
+
+    /* Animations start end*/
+
+
+
 }
 
 /* Style for 1440px-1281px END */
@@ -212,7 +701,6 @@ ul {
 @media only screen and (max-width: 1280px) and (min-width: 969px) {
     .main-section-law {
         min-height: 1398px;
-        background-image: url(../img/LawPageView-1280px-BG.svg);
         padding-inline: 100px;
     }
 
@@ -263,6 +751,209 @@ ul {
     .newDiv {
         height: 202px;
     }
+
+    /* Animations start */
+
+    .bg_img_law_1 {
+        width: 12.854vw;
+        height: 12.854vw;
+        left: -3.604vw;
+        top: -4.417vw;
+    }
+
+    .bg_img_law_2 {
+        width: 32.854vw;
+        height: 32.854vw;
+        left: -12.833vw;
+        top: -13.646vw;
+    }
+
+    .bg_img_law_3 {
+        width: 25.208vw;
+        height: 25.208vw;
+        right: -10.021vw;
+        top: -12.104vw;
+    }
+
+    .bg_img_law_4 {
+        left: 52.979vw;
+        top: 24.896vw;
+        width: 40.552vw;
+        height: 21.8vw;
+        animation: appearFromRight_XXL 1.2s ease-in-out;
+        transform: rotate(10deg);
+    }
+
+    @keyframes appearFromRight_XXL {
+        0% {
+            left: 44.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 52.979vw;
+        }
+    }
+
+
+    .bg_img_law_5 {
+        display: none;
+    }
+
+    .bg_img_law_6 {
+        display: none;
+    }
+
+
+    .ty_1 {
+        animation: fifth_M_ty_1 85s linear infinite;
+    }
+
+    @keyframes fifth_M_ty_1 {
+        0% {
+            top: 20%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 70%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 22%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 65%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 88%;
+            left: 60%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 5%;
+            left: 15%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 73%;
+            left: 96%;
+        }
+
+        70% {
+            top: 15%;
+            left: 1%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 81%;
+            left: 40%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: 5%;
+            left: 90%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: 95%;
+            left: 30%;
+            transform: rotate(-360deg);
+        }
+    }
+
+
+    .ty_2 {
+        animation: fifth_M_ty_2 85s linear infinite;
+    }
+
+    @keyframes fifth_M_ty_2 {
+        0% {
+            top: 35%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 85%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 44%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 8%;
+            left: 60%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 78%;
+            left: 15%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 1%;
+            left: 96%;
+        }
+
+        70% {
+            top: 85%;
+            left: 1%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 6%;
+            left: 96%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: 5%;
+            left: 40%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: 95%;
+            left: 95%;
+            transform: rotate(-360deg);
+        }
+    }
+
+    /* Animations start end*/
 }
 
 /* Style for 1280px-969px END */
@@ -272,7 +963,6 @@ ul {
 @media only screen and (max-width: 968px) and (min-width: 679px) {
     .main-section-law {
         min-height: 1295px;
-        background-image: url(../img/LawPageView-968px-BG.svg);
         padding-inline: 100px;
     }
 
@@ -341,6 +1031,162 @@ ul {
     .cut-words {
         display: block;
     }
+
+    /* Animation start */
+    .bg_img_law_1 {
+        width: 30.854vw;
+        height: 30.854vw;
+        left: -14.604vw;
+        top: -16.417vw;
+        animation: spin 30s linear infinite;
+        background-image: url(../img/first-img-element_2_A.png);
+    }
+
+    .bg_img_law_2 {
+        width: 30.854vw;
+        height: 30.854vw;
+        left: -21.833vw;
+        top: 27.646vw;
+    }
+
+    .bg_img_law_3 {
+        position: absolute;
+        width: 6.36vw;
+        height: 6.36vw;
+        left: 82.979vw;
+        top: 5.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/orange_first_section.svg);
+        animation: appearFromRight_L_FAQ 1.2s ease-in-out;
+    }
+
+    @keyframes appearFromRight_L_FAQ {
+        0% {
+            left: 77.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 82.979vw;
+        }
+    }
+
+    .bg_img_law_4 {
+        width: 48.552vw;
+        height: 27.8vw;
+        left: 40.979vw;
+        top: 30.896vw;
+        animation: appearFromRight_XL 1.2s ease-in-out;
+        transform: rotate(10deg);
+    }
+
+    @keyframes appearFromRight_XL {
+        0% {
+            left: 32.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 40.979vw;
+        }
+    }
+
+    .bg_img_law_4 {
+        position: absolute;
+        border: 4.2px solid #FF9149;
+        border-radius: 50%;
+        width: 1.502vw;
+        height: 1.502vw;
+        left: 48.979vw;
+        top: 4.2vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        animation: fifth_A 85s linear infinite;
+    }
+
+    @keyframes fifth_A {
+        0% {
+            top: -5%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 20%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 65%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 78%;
+            left: 90%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 20%;
+            left: 45%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 40%;
+            left: 20%;
+        }
+
+        70% {
+            top: 35%;
+            left: 0%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 45%;
+            left: 90%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: -5%;
+            left: 0%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: -17%;
+            left: 8%;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .bg_img_law_5 {
+        display: none;
+    }
+
+    .bg_img_law_6 {
+        display: none;
+    }
+
+    /* Animation end */
 }
 
 /* Style for 969px-679px END */
@@ -354,9 +1200,7 @@ ul {
 
 @media only screen and (max-width: 678px) and (min-width: 429px) {
     .main-section-law {
-   
         min-height: 1424px;
-        background-image: url(../img/LawPageView-678px-BG.svg);
         padding-inline: 16px;
         display: flex;
         flex-direction: column;
@@ -426,6 +1270,165 @@ ul {
         height: 130px;
     }
 
+    /* Animation start */
+    .bg_img_law_1 {
+        width: 35.854vw;
+        height: 35.854vw;
+        left: -14.604vw;
+        top: -16.417vw;
+        background-image: url(../img/first-img-element_2_A.png);
+        animation: spin 30s linear infinite;
+    }
+
+    .bg_img_law_2 {
+        width: 35.854vw;
+        height: 35.854vw;
+        left: -21.833vw;
+        top: 41.646vw;
+    }
+
+    .bg_img_law_3 {
+        position: absolute;
+        width: 9.36vw;
+        height: 9.36vw;
+        left: 72.979vw;
+        top: 6.696vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/orange_first_section.svg);
+        animation: appearFromRight_L_FAQ 1.2s ease-in-out;
+    }
+
+    @keyframes appearFromRight_L_FAQ {
+        0% {
+            left: 67.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 72.979vw;
+        }
+    }
+
+    .bg_img_law_4 {
+        position: absolute;
+        border: 4.6px solid #FF9149;
+        border-radius: 50%;
+        width: 2.302vw;
+        height: 2.302vw;
+        left: 48.979vw;
+        top: 4.2vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        animation: fifth_A 85s linear infinite;
+    }
+
+    @keyframes fifth_A {
+        0% {
+            top: -5%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 20%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 65%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 78%;
+            left: 90%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 20%;
+            left: 45%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 40%;
+            left: 20%;
+        }
+
+        70% {
+            top: 35%;
+            left: 0%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 45%;
+            left: 90%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: -5%;
+            left: 0%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: -17%;
+            left: 8%;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .bg_img_law_5 {
+        position: absolute;
+        width: 70.552vw;
+        height: 39.8vw;
+        left: 14.979vw;
+        top: 47.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/first-img-element_4.svg);
+        animation: appearFromRight_law_XXL 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_law_XXL {
+        0% {
+            left: 6.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 14.979vw;
+        }
+    }
+
+
+    .bg_img_law_6 {
+        display: none;
+    }
+
+
+    /* Animation end */
+
 }
 
 /* Style for 678px-428px END */
@@ -439,9 +1442,9 @@ ul {
 @media only screen and (max-width: 428px) and (min-width: 321px) {
     .main-section-law {
         min-height: 1652px;
-        background-image: url(../img/MobileLawPage-428px-BG.svg);
         padding-inline: 16px;
         align-items: flex-start;
+        background: #011855;
     }
 
     .all-law {
@@ -469,7 +1472,8 @@ ul {
     .main-law-desk {
         min-height: 1460px;
         border-radius: 0px;
-        background: unset;
+        padding-inline: 16px;
+        width: 108%;
     }
 
     .main-law-desk ul {
@@ -508,6 +1512,157 @@ ul {
     .newDiv {
         height: 130px;
     }
+
+
+    /* Animation Start */
+
+    .bg_img_law_1 {
+        width: 47.854vw;
+        height: 47.854vw;
+        left: -20.604vw;
+        top: -17.417vw;
+        background-image: url(../img/first-img-element_2_A.png);
+        animation: spin 30s linear infinite;
+    }
+
+    .bg_img_law_3 {
+        width: 14.36vw;
+        height: 14.36vw;
+        left: 74.979vw;
+        top: 9.696vw;
+        background-image: url(../img/orange_first_section.svg);
+        animation: appearFromRight_XL_S 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_XL_S {
+        0% {
+            left: 69.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 74.979vw;
+        }
+    }
+
+    .bg_img_law_4 {
+        position: absolute;
+        border: 4.2px solid #FF9149;
+        border-radius: 50%;
+        width: 3.402vw;
+        height: 3.402vw;
+        left: 48.979vw;
+        top: 4.2vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        animation: fifth_A 85s linear infinite;
+    }
+
+    @keyframes fifth_A {
+        0% {
+            top: -5%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 20%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 65%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 78%;
+            left: 90%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 20%;
+            left: 45%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 40%;
+            left: 20%;
+        }
+
+        70% {
+            top: 35%;
+            left: 0%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 45%;
+            left: 90%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: -5%;
+            left: 0%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: -17%;
+            left: 8%;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .bg_img_law_5 {
+        position: absolute;
+        width: 70.552vw;
+        height: 39.8vw;
+        left: 14.979vw;
+        top: 77.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/first-img-element_4.svg);
+        animation: appearFromRight_law_XXL 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_law_XXL {
+        0% {
+            left: 6.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 14.979vw;
+        }
+    }
+
+    .bg_img_law_2,
+    .bg_img_law_6,
+    .bg_img_law_7 {
+        display: none;
+    }
+
+    /* Animation End */
 }
 
 /* Style for 428px-321px END */
@@ -522,7 +1677,6 @@ ul {
 @media only screen and (max-width: 320px) {
     .main-section-law {
         min-height: 1944px;
-        background-image: url(../img/MobileLawPage-320px-BG.svg);
         padding-inline: 16px;
     }
 
@@ -561,7 +1715,8 @@ ul {
     .main-law-desk {
         min-height: 1460px;
         border-radius: 0px;
-        background: unset;
+        padding-inline: 16px;
+        width: 108%;
     }
 
     .main-law-desk ul {
@@ -606,6 +1761,156 @@ ul {
     .newDiv {
         height: 134px;
     }
+
+
+
+    .bg_img_law_1 {
+        width: 55.854vw;
+        height: 55.854vw;
+        left: -27.021vw;
+        top: -30.104vw;
+        background-image: url(../img/first-img-element_2_A.png);
+        animation: spin 30s linear infinite;
+    }
+
+    .bg_img_law_3 {
+        width: 18.36vw;
+        height: 18.36vw;
+        left: 76.979vw;
+        top: 14.459vw;
+        background-image: url(../img/orange_first_section.svg);
+        animation: appearFromRight_XL_S 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_XL_S {
+        0% {
+            left: 71.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 76.979vw;
+        }
+    }
+
+    .bg_img_law_4 {
+        position: absolute;
+        border: 4.2px solid #FF9149;
+        border-radius: 50%;
+        width: 4.602vw;
+        height: 4.602vw;
+        left: 48.979vw;
+        top: 4.2vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        animation: fifth_A 85s linear infinite;
+    }
+
+    @keyframes fifth_A {
+        0% {
+            top: -5%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 20%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 65%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 78%;
+            left: 90%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 20%;
+            left: 45%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 40%;
+            left: 20%;
+        }
+
+        70% {
+            top: 35%;
+            left: 0%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 45%;
+            left: 90%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: -5%;
+            left: 0%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: -17%;
+            left: 8%;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .bg_img_law_5 {
+        position: absolute;
+        width: 70.552vw;
+        height: 39.8vw;
+        left: 14.979vw;
+        top: 115.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/first-img-element_4.svg);
+        animation: appearFromRight_law_XXL 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_law_XXL {
+        0% {
+            left: 6.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 14.979vw;
+        }
+    }
+
+    .bg_img_law_2,
+    .bg_img_law_6,
+    .bg_img_law_7 {
+        display: none;
+    }
+
+    /* Animation End */
 
 
 }
