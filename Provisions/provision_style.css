@@ -27,21 +27,16 @@ ul {
 
 
 .provisionSect {
+    position: relative;
     width: 100%;
     min-height: 797px;
-    background-image: url(/img/provisions_19.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(100.09deg, #0A30A3 0%, #001447 58.57%);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-inline: 100px;
+    overflow: hidden;
 }
-
-
-
-
 
 .topSpa {
     width: 100%;
@@ -49,6 +44,7 @@ ul {
     margin-top: 40px;
     display: flex;
     gap: 6px;
+
 
 }
 
@@ -60,6 +56,7 @@ span {
     letter-spacing: 0.01em;
     text-align: center;
     color: #FFFFFF;
+    z-index: 2;
 
 }
 
@@ -82,6 +79,7 @@ span {
     letter-spacing: 0em;
     text-align: left;
     color: #F6F6F6;
+    z-index: 2;
 }
 
 .consCenterH1 {
@@ -105,8 +103,10 @@ span {
     gap: 47px;
     padding-inline: 16px;
     padding-top: 50px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
+    z-index: 2;
 }
+
 .consumerMain {
     min-height: 349px !important;
 }
@@ -141,3 +141,93 @@ span {
 .consCenterH1 {
     display: none;
 }
+
+/* Animation start */
+.bg_img_prov_1 {
+    position: absolute;
+    width: 18.854vw;
+    height: 18.854vw;
+    background-repeat: no-repeat;
+    left: -2.604vw;
+    top: -10.417vw;
+    z-index: 0;
+    background-size: cover;
+    background-image: url("../img/first-img-element_1.svg");
+}
+
+.bg_img_prov_2 {
+    position: absolute;
+    width: 53.854vw;
+    height: 53.854vw;
+    background-repeat: no-repeat;
+    left: -24.833vw;
+    top: -23.646vw;
+    z-index: 0;
+    background-size: cover;
+    background-image: url("../img/first-img-element_2_A.png");
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bg_img_prov_3 {
+    position: absolute;
+    width: 30.208vw;
+    height: 30.208vw;
+    right: -13.021vw;
+    top: -20.104vw;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+    background-image: url("../img/first-img-element_3_a.svg");
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.bg_img_prov_4 {
+    position: absolute;
+    width: 38.552vw;
+    height: 21.8vw;
+    left: 48.1vw;
+    top: 11.896vw;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+    background-image: url(../img/first-img-element_4.svg);
+    animation: appearFromRight 1.2s ease-in-out;
+    transform: rotate(3deg);
+}
+
+@keyframes appearFromRight {
+    0% {
+        left: 39.979vw;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        left: 47.979vw;
+    }
+}
+
+
+
+/* Animation end */
