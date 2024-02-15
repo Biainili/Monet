@@ -94,9 +94,17 @@
     let answerBlockers = document.querySelectorAll('.answer-block');
     answerBlockers.forEach((block) => {
       block.style.display = 'none';
+      block.style.opacity = '0'; // 
     });
 
     element.style.display = currentDisplay === 'none' ? 'block' : 'none';
+
+    if (currentDisplay === 'none') {
+      element.style.opacity = '0';
+      setTimeout(() => {
+        element.style.opacity = '1';
+      }, 60);
+    }
 
     let arrowImages = document.querySelectorAll('.img-arrow');
     arrowImages.forEach((img) => {

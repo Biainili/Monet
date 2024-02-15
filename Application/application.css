@@ -26,18 +26,16 @@ ul {
 }
 
 
-
 .aplication-content {
+    position: relative;
     width: 100%;
     min-height: 809px;
-    background-image: url(../img/ApplicationPageView-1920px-BG.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(100.09deg, #0A30A3 0%, #001447 58.57%);
     padding-inline: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 
@@ -48,6 +46,7 @@ ul {
     flex-direction: column;
     padding-top: 40px;
     gap: 100px;
+    z-index: 2;
 }
 
 .left-content h1 {
@@ -79,27 +78,225 @@ ul {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 
 .img-for-aplication {
-   
+
     display: flex;
     gap: 31px;
 }
 
+/* Animation start */
+.bg_img_app_1 {
+    position: absolute;
+    width: 18.854vw;
+    height: 18.854vw;
+    background-repeat: no-repeat;
+    left: -2.604vw;
+    top: -10.417vw;
+    z-index: 0;
+    background-size: cover;
+    background-image: url("../img/first-img-element_1.svg");
+}
+
+.bg_img_app_2 {
+    position: absolute;
+    width: 53.854vw;
+    height: 53.854vw;
+    background-repeat: no-repeat;
+    left: -24.833vw;
+    top: -23.646vw;
+    z-index: 0;
+    background-size: cover;
+    background-image: url("../img/first-img-element_2_A.png");
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bg_img_app_3 {
+    position: absolute;
+    width: 30.208vw;
+    height: 30.208vw;
+    right: -13.021vw;
+    top: -20.104vw;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+    background-image: url("../img/first-img-element_3_a.svg");
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bg_img_app_4 {
+    position: absolute;
+    width: 38.552vw;
+    height: 21.8vw;
+    left: 49.5vw;
+    top: 14.896vw;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+    background-image: url(../img/first-img-element_4.svg);
+    animation: appearFromRight 1.2s ease-in-out;
+    transform: rotate(10deg);
+}
+
+@keyframes appearFromRight {
+    0% {
+        left: 41.979vw;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        left: 49.5vw;
+    }
+}
+
+
+/* Animation end *
+
 
 /* Style for 1440px-1280px START */
 
-@media only screen and (max-width: 1440px) and (min-width: 1281px) {
+@media only screen and (max-width: 1440px) {
     .aplication-content {
         min-height: 610px;
-        background-image: url(../img/ApplicationPageView-1440px-BG.svg);
     }
 
     .left-content {
         gap: 50px;
     }
 
+    .bg_img_app_1 {
+        width: 12.854vw;
+        height: 12.854vw;
+        left: -4.604vw;
+        top: -5.417vw;
+    }
+
+    .bg_img_app_2 {
+        width: 28.854vw;
+        height: 28.854vw;
+        left: -10.833vw;
+        top: -11.646vw;
+    }
+
+    .bg_img_app_3 {
+        width: 22.208vw;
+        height: 22.208vw;
+        right: -9.021vw;
+        top: -11.104vw;
+    }
+
+    .bg_img_app_4 {
+        left: 54.979vw;
+        top: 8.296vw;
+        width: 39.552vw;
+        height: 21.8vw;
+        animation: appearFromRight_XXL 1.2s ease-in-out;
+        transform: rotate(10deg);
+    }
+
+    @keyframes appearFromRight_XXL {
+        0% {
+            left: 46.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 54.979vw;
+        }
+    }
+
+    .bg_img_app_5 {
+        position: absolute;
+        width: 218px;
+        height: 218px;
+        background-repeat: no-repeat;
+        right: 85.167vw;
+        top: 15.646vw;
+        z-index: 9;
+        transform: rotate(75deg);
+        background-size: cover;
+        background-image: url(../img/third-img-element_1.svg);
+        animation: fallInFromTopRight_law 2.4s ease-in-out infinite;
+
+    }
+
+    @keyframes fallInFromTopRight_law {
+        0% {
+            top: -1vw;
+            right: 110.167vw;
+            height: 210px;
+        }
+
+        40% {
+            opacity: 0.4;
+        }
+
+        100% {
+            top: 15.646vw;
+            right: 85.167vw;
+            opacity: 0;
+            height: 210px;
+            ;
+        }
+    }
+
+    .bg_img_app_6 {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        background-repeat: no-repeat;
+        right: 85.167vw;
+        top: 20.646vw;
+        z-index: 9;
+        background-size: cover;
+        transform: rotate(75deg);
+        background-image: url(../img/third-img-element_1.svg);
+        animation: fallInFromTopRight_law-A 2s ease-in-out infinite;
+
+    }
+
+    @keyframes fallInFromTopRight_law-A {
+        0% {
+            top: 4vw;
+            right: 110.167vw;
+            height: 210px;
+        }
+
+        40% {
+            opacity: 0.4;
+        }
+
+        100% {
+            top: 20.646vw;
+            right: 85.167vw;
+            opacity: 0;
+            height: 210px;
+        }
+    }
 }
 
 /* Style for 1440px-1280px END */
@@ -108,7 +305,6 @@ ul {
 @media only screen and (max-width: 1280px) and (min-width: 969px) {
     .aplication-content {
         min-height: 748px;
-        background-image: url(../img/Application-BG-1280px.svg);
     }
 
     .left-content {
@@ -119,6 +315,106 @@ ul {
     .left-content h1 {
         margin-bottom: 83px;
     }
+
+
+    .bg_img_app_1 {
+        width: 12.854vw;
+        height: 12.854vw;
+        left: -3.604vw;
+        top: -4.417vw;
+    }
+
+    .bg_img_app_2 {
+        width: 32.854vw;
+        height: 32.854vw;
+        left: -12.833vw;
+        top: -13.646vw;
+    }
+
+    .bg_img_app_3 {
+        width: 25.208vw;
+        height: 25.208vw;
+        right: -10.021vw;
+        top: -12.104vw;
+    }
+
+    .bg_img_app_4 {
+        left: 51.979vw;
+        top: 22.896vw;
+        width: 40.552vw;
+        height: 22.8vw;
+        animation: appearFromRight_XXL 1.2s ease-in-out;
+        transform: rotate(10deg);
+    }
+
+    @keyframes appearFromRight_XXL {
+        0% {
+            left: 43.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 51.979vw;
+        }
+    }
+
+    .bg_img_app_5 {
+        width: 218px;
+        height: 218px;
+        right: 85.167vw;
+        top: 20.646vw;
+        animation: fallInFromTopRight_law 2.4s ease-in-out infinite;
+
+    }
+
+    @keyframes fallInFromTopRight_law {
+        0% {
+            top: 4vw;
+            right: 110.167vw;
+            height: 210px;
+        }
+
+        40% {
+            opacity: 0.4;
+        }
+
+        100% {
+            top: 20.646vw;
+            right: 85.167vw;
+            opacity: 0;
+            height: 210px;
+            ;
+        }
+    }
+
+    .bg_img_app_6 {
+        width: 280px;
+        height: 280px;
+        right: 85.167vw;
+        top: 25.646vw;
+        animation: fallInFromTopRight_law-A 2s ease-in-out infinite;
+
+    }
+
+    @keyframes fallInFromTopRight_law-A {
+        0% {
+            top: 9vw;
+            right: 110.167vw;
+            height: 210px;
+        }
+
+        40% {
+            opacity: 0.4;
+        }
+
+        100% {
+            top: 25.646vw;
+            right: 85.167vw;
+            opacity: 0;
+            height: 210px;
+        }
+    }
 }
 
 /* Style for 1280px-968px END */
@@ -126,14 +422,13 @@ ul {
 
 /* Style for 968px-678px START */
 
-@media only screen and (max-width: 968px) and (min-width: 679px) {
+@media only screen and (max-width: 968px) {
     .all-aplication {
         display: none;
     }
 
     .aplication-content {
         min-height: 626px;
-        background-image: url(../img/ApplicationPageView-968px-BG.svg);
     }
 
     .left-content {
@@ -144,10 +439,161 @@ ul {
     .left-content h1 {
         margin-bottom: 83px;
     }
+
+    .bg_img_app_1 {
+        width: 30.854vw;
+        height: 30.854vw;
+        left: -14.604vw;
+        top: -16.417vw;
+        animation: spin 30s linear infinite;
+        background-image: url(../img/first-img-element_2_A.png);
+    }
+
+    .bg_img_app_2 {
+        width: 30.854vw;
+        height: 30.854vw;
+        left: -21.833vw;
+        top: 27.646vw;
+        animation: spin 30s linear infinite;
+    }
+
+    .bg_img_app_3 {
+        position: absolute;
+        width: 6.36vw;
+        height: 6.36vw;
+        left: 82.979vw;
+        top: 5.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/orange_first_section.svg);
+        animation: appearFromRight_L_FAQ 1.2s ease-in-out;
+    }
+
+    @keyframes appearFromRight_L_FAQ {
+        0% {
+            left: 77.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 82.979vw;
+        }
+    }
+
+    .bg_img_app_4 {
+        width: 48.552vw;
+        height: 27.8vw;
+        left: 40.979vw;
+        top: 27.896vw;
+        animation: appearFromRight_XL 1.2s ease-in-out;
+        transform: rotate(10deg);
+    }
+
+    @keyframes appearFromRight_XL {
+        0% {
+            left: 32.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 40.979vw;
+        }
+    }
+
+    .bg_img_app_5 {
+        position: absolute;
+        border: 4.2px solid #FF9149;
+        border-radius: 50%;
+        width: 1.502vw;
+        height: 1.502vw;
+        left: 48.979vw;
+        top: 4.2vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        animation: fifth_A 85s linear infinite;
+    }
+
+    @keyframes fifth_A {
+        0% {
+            top: -5%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 20%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 65%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 78%;
+            left: 90%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 20%;
+            left: 45%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 40%;
+            left: 20%;
+        }
+
+        70% {
+            top: 35%;
+            left: 0%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 45%;
+            left: 90%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: -5%;
+            left: 0%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: -17%;
+            left: 8%;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .bg_img_app_6,
+    .bg_img_app_7 {
+        display: none;
+    }
 }
 
 /* Style for 968px-678px END */
-@media only screen and (max-width: 710px){
+@media only screen and (max-width: 710px) {
     .img-for-aplication {
         display: flex;
         gap: 31px;
@@ -157,8 +603,8 @@ ul {
 }
 
 
-@media only screen and (max-width: 600px){
-    .aplication-content{
+@media only screen and (max-width: 600px) {
+    .aplication-content {
         padding-inline: 50px;
     }
 }
@@ -174,7 +620,6 @@ ul {
 
     .aplication-content {
         min-height: 826px;
-        background-image: url(../img/ApplicationPageView-678px-BG-NEW.svg);
     }
 
     .left-content {
@@ -182,7 +627,7 @@ ul {
         padding-top: 65px;
     }
 
-   
+
 
     .left-content h1 {
         margin-bottom: 83px;
@@ -192,6 +637,159 @@ ul {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .bg_img_app_1 {
+        width: 35.854vw;
+        height: 35.854vw;
+        left: -14.604vw;
+        top: -16.417vw;
+        background-image: url(../img/first-img-element_2_A.png);
+        animation: spin 30s linear infinite;
+    }
+
+    .bg_img_app_2 {
+        width: 35.854vw;
+        height: 35.854vw;
+        left: -14.604vw;
+        top: -16.417vw;
+        background-image: url(../img/first-img-element_2_A.png);
+        animation: spin 30s linear infinite;
+    }
+
+    .bg_img_app_3 {
+        position: absolute;
+        width: 9.36vw;
+        height: 9.36vw;
+        left: 72.979vw;
+        top: 6.696vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/orange_first_section.svg);
+        animation: appearFromRight_L_FAQ 1.2s ease-in-out;
+    }
+
+    @keyframes appearFromRight_L_FAQ {
+        0% {
+            left: 67.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 72.979vw;
+        }
+    }
+
+    .bg_img_app_4 {
+        position: absolute;
+        width: 70.552vw;
+        height: 39.8vw;
+        left: 17.979vw;
+        top: 45.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/first-img-element_4.svg);
+        animation: appearFromRight_law_XXL 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_law_XXL {
+        0% {
+            left: 9.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 17.979vw;
+        }
+    }
+
+    .bg_img_app_5 {
+        position: absolute;
+        border: 4.6px solid #FF9149;
+        border-radius: 50%;
+        width: 2.302vw;
+        height: 2.302vw;
+        left: 48.979vw;
+        top: 4.2vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        animation: fifth_A 85s linear infinite;
+    }
+
+    @keyframes fifth_A {
+        0% {
+            top: -5%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 20%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 65%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 78%;
+            left: 90%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 20%;
+            left: 45%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 40%;
+            left: 20%;
+        }
+
+        70% {
+            top: 35%;
+            left: 0%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 45%;
+            left: 90%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: -5%;
+            left: 0%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: -17%;
+            left: 8%;
+            transform: rotate(-360deg);
+        }
+    }
+
 }
 
 /* Style for 678px-428px END */
@@ -199,14 +797,14 @@ ul {
 
 /* Style for 678px-428px START */
 
-@media only screen and (max-width: 428px)  {
+@media only screen and (max-width: 428px) {
     .all-aplication {
         display: none;
     }
 
     .aplication-content {
         min-height: 414px;
-        background-image: url(../img/ApplicationPage-428px-BG.svg);
+        background: #011855;
     }
 
     .left-content {
@@ -222,10 +820,154 @@ ul {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .aplication-content{
+
+    .aplication-content {
         padding-inline: 16px;
     }
-    
+
+    .bg_img_app_1 {
+        width: 47.854vw;
+        height: 47.854vw;
+        left: -20.604vw;
+        top: -17.417vw;
+        background-image: url(../img/first-img-element_2_A.png);
+        animation: spin 30s linear infinite;
+    }
+
+    .bg_img_app_2 {
+        display: none;
+    }
+
+    .bg_img_app_3 {
+        width: 14.36vw;
+        height: 14.36vw;
+        left: 74.979vw;
+        top: 9.696vw;
+        background-image: url(../img/orange_first_section.svg);
+        animation: appearFromRight_XL_S 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_XL_S {
+        0% {
+            left: 69.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 74.979vw;
+        }
+    }
+
+    .bg_img_app_4 {
+        position: absolute;
+        width: 44.552vw;
+        height: 23.8vw;
+        left: 47.979vw;
+        top: 69.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        background-image: url(../img/first-img-element_4.svg);
+        animation: appearFromRight_law_XXL 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_law_XXL {
+        0% {
+            left: 39.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 47.979vw;
+        }
+    }
+
+    .bg_img_app_5 {
+        position: absolute;
+        border: 4.2px solid #FF9149;
+        border-radius: 50%;
+        width: 3.402vw;
+        height: 3.402vw;
+        left: 48.979vw;
+        top: 4.2vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 0;
+        animation: fifth_A 85s linear infinite;
+    }
+
+    @keyframes fifth_A {
+        0% {
+            top: -5%;
+            left: 25%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 20%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 95%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 5%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 58%;
+            left: 90%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 88%;
+            left: 45%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 10%;
+            left: 48%;
+        }
+
+        70% {
+            top: 95%;
+            left: 0%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 45%;
+            left: 90%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: -5%;
+            left: 0%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: -17%;
+            left: 8%;
+            transform: rotate(-360deg);
+        }
+    }
 }
 
 /* Style for 678px-428px END */
@@ -240,7 +982,6 @@ ul {
 
     .aplication-content {
         min-height: 402px;
-        background-image: url(../img/MobileApplicationPage-320px-BG.svg);
     }
 
     .left-content {
@@ -260,6 +1001,49 @@ ul {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .bg_img_app_1 {
+        width: 55.854vw;
+        height: 55.854vw;
+        left: -27.021vw;
+        top: -30.104vw;
+        background-image: url(../img/first-img-element_2_A.png);
+        animation: spin 30s linear infinite;
+    }
+
+    .bg_img_app_3 {
+        width: 18.36vw;
+        height: 18.36vw;
+        left: 76.979vw;
+        top: 14.459vw;
+        background-image: url(../img/orange_first_section.svg);
+        animation: appearFromRight_XL_S 1.2s ease-in-out;
+        transform: rotate(15deg);
+    }
+
+    @keyframes appearFromRight_XL_S {
+        0% {
+            left: 71.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 76.979vw;
+        }
+    }
+    
+    .bg_img_app_4 {
+        display: none;
+    }
+    .bg_img_app_5 {
+        border: 4.2px solid #FF9149;
+        width: 4.602vw;
+        height: 4.602vw;
+        left: 48.979vw;
+        top: 4.2vw;
+    }
+
 }
 
 /* Style for 428px-428px END */

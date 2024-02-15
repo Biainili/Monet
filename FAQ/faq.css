@@ -16,7 +16,6 @@ body {
 
 }
 
-
 a {
     text-decoration: none;
 }
@@ -158,6 +157,7 @@ ul {
 
 .answer-block {
     display: none;
+    opacity: 0;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -166,8 +166,9 @@ ul {
     color: #FCFCFC;
     padding-inline: 20px;
     margin-bottom: 29px;
-
+    transition: opacity  0.9s ease;
 }
+
 
 .img-arrow {
     width: 18px;
@@ -315,7 +316,7 @@ ul {
         line-height: 34px;
     }
 
-    
+
 
     .bg_img_page_5 {
         position: absolute;
@@ -1781,6 +1782,7 @@ ul {
         background: #011855;
 
     }
+
     .bg_img_page_3 {
         display: none;
     }

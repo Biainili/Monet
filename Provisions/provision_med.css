@@ -133,69 +133,69 @@
 
     @keyframes fifth_M {
         0% {
-            top: 80%;
+            top: 77%;
             left: 8%;
             transform: rotate(0deg);
         }
 
         10% {
-            top: 50%;
+            top: 55%;
             left: 90%;
             transform: rotate(20deg);
         }
 
 
         20% {
-            top: 28%;
-            left: 0%;
+            top: 22%;
+            right: 0%;
             transform: rotate(50deg);
         }
 
         30% {
-            top: 95%;
-            left: 70%;
+            top: 99%;
+            left: 96%;
             transform: rotate(90deg);
         }
 
         40% {
-            top: 18%;
-            left: 90%;
+            top: 11%;
+            left: 77%;
             transform: rotate(0deg);
         }
 
         50% {
-            top: 20%;
-            left: 45%;
+            top: 22%;
+            left: 39%;
             transform: rotate(100deg);
         }
 
         60% {
-            top: 90%;
-            left: 29%;
+            top: 99%;
+            left: 19%;
         }
 
         70% {
-            top: 35%;
-            left: 0%;
+            top: 33%;
+            left: 21%;
             transform: rotate(0deg);
         }
 
         80% {
-            top: 95%;
-            left: 80%;
+            top: 99%;
+            left: 74%;
             transform: rotate(-70deg);
         }
 
         90% {
-            top: 56%;
-            left: 0%;
+            top: 55%;
+            left: 54%;
             transform: rotate(-170deg);
         }
 
 
         100% {
-            top: 17%;
-            left: 8%;
+            top: 11%;
+            left: 2%;
             transform: rotate(-360deg);
         }
     }
@@ -214,7 +214,7 @@
 
         10% {
             top: 70%;
-            left: 90%;
+            right: 90%;
             transform: rotate(20deg);
         }
 
@@ -245,7 +245,7 @@
 
         60% {
             top: 73%;
-            left: 96%;
+            right: 96%;
         }
 
         70% {
@@ -269,7 +269,7 @@
 
         100% {
             top: 95%;
-            left: 30%;
+            right: 30%;
             transform: rotate(-360deg);
         }
     }
@@ -282,7 +282,7 @@
     @keyframes fifth_M_ty_2 {
         0% {
             top: 35%;
-            left: 8%;
+            right: 8%;
             transform: rotate(0deg);
         }
 
@@ -319,12 +319,12 @@
 
         60% {
             top: 1%;
-            left: 96%;
+            right: 96%;
         }
 
         70% {
             top: 85%;
-            left: 1%;
+            right: 1%;
             transform: rotate(0deg);
         }
 
@@ -336,7 +336,7 @@
 
         90% {
             top: 5%;
-            left: 40%;
+            right: 40%;
             transform: rotate(-170deg);
         }
 
