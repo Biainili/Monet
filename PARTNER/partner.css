@@ -43,7 +43,7 @@ ul {
   position: absolute;
   width: 1050px;
   height: 1050px;
-  background-image: url(../img/sect_1V1.svg);
+  background-image: url(../img/first-img-element_2_A.png);
   background-repeat: no-repeat;
   background-size: 100%;
   top: -470px;
@@ -121,16 +121,16 @@ ul {
 
   100% {
     opacity: 1;
-    left: 48.979vw;
+    left: 49.979vw;
   }
 }
 
 .circlesesPart {
   display: flex;
-  gap: 21px;
+  gap: 229px;
   z-index: 1;
   position: absolute;
-  top: 92%;
+  top: 93%;
   right: 69.7%;
   transform: rotate(314deg);
   z-index: -1;

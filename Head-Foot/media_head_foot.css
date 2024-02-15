@@ -506,6 +506,13 @@
    .footLogo9 {
       display: block;
    }
+   .leftTop img {
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  .leftTop a:hover .footLogo9 {
+      transform: rotate(360deg);
+  }
 
 
 
@@ -1074,6 +1081,13 @@
    .footLogo4 {
       display: block;
    }
+   .leftTop img {
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  .leftTop a:hover .footLogo4 {
+      transform: rotate(360deg);
+  }
 
    .footLogo9 {
       display: none;

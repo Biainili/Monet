@@ -3,188 +3,207 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
-
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: "Montserratarm";
     src: url(../fonts/fonts/Montserratarm-Medium/Montserratarm-Medium.ttf);
-}
-
-body {
+  }
+  
+  body {
     font-family: "Montserratarm";
-
-}
-
-
-a {
+  }
+  
+  a {
     text-decoration: none;
-}
-
-ul {
+  }
+  
+  ul {
     list-style: none;
-}
-
-
-
-
-
-.sakaginSection {
+  }
+  
+  .sakaginSection {
     width: 100%;
     height: 809px;
-    background-image: url(../img/sakagin19.svg);
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(100.09deg, #0a30a3 0%, #001447 58.57%);
     padding-inline: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+  }
 
 
 
-.topSpa {
+
+  .first-img-element_4 {
+    position: absolute;
+    width: 38.552vw;
+    height: 21.8vw;
+    left: 49.979vw;
+    top: 14.896vw;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+    background-image: url(../img/first-img-element_4.svg);
+    animation: appearFromRight 1.2s ease-in-out;
+    transform: rotate(11deg);
+  }
+  
+  @keyframes appearFromRight {
+    0% {
+      left: 40.979vw;
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+      left: 49.979vw;
+    }
+  }
+
+
+
+
+  
+  .topSpa {
     max-width: 1430px;
     width: 100%;
     margin-top: 40px;
     display: flex;
     gap: 6px;
-
-}
-
-.topSpa a,
-span {
+  }
+  
+  .topSpa a,
+  span {
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #FFFFFF;
-
-}
-
-.topSpa a:hover {
-    color: #FFB25F;
-}
-
-.topSpa a:active {
-    color: #FF7233;
-}
-
-.sakH1 {
+    color: #ffffff;
+  }
+  
+  .topSpa a:hover {
+    color: #ffb25f;
+  }
+  
+  .topSpa a:active {
+    color: #ff7233;
+  }
+  
+  .sakH1 {
     margin-top: 100px;
     max-width: 1430px;
     width: 100%;
-}
-
-.sakH1 h1 {
+  }
+  
+  .sakH1 h1 {
     /* font-size: 34px; */
     font-size: 30px;
     font-weight: 600;
     line-height: 48px;
     letter-spacing: 0em;
     text-align: left;
-    color: #F6F6F6;
-}
-
-.paymant {
+    color: #f6f6f6;
+  }
+  
+  .paymant {
     max-width: 1430px;
     width: 100%;
     display: flex;
     margin-top: 50px;
     gap: 109px;
-}
-
-.paymLeft {
+  }
+  
+  .paymLeft {
     display: flex;
     flex-direction: column;
     gap: 25px;
-}
-
-.payLeftTop,
-.payRightBot {
+  }
+  
+  .payLeftTop,
+  .payRightBot {
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
-
-.payLeftTop h1,
-.payRightBot h1 {
+  }
+  
+  .payLeftTop h1,
+  .payRightBot h1 {
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
     letter-spacing: 0em;
     text-align: left;
-    color: #F6F6F6;
-}
-
-.payLeftTop span,
-.payRightBot span {
+    color: #f6f6f6;
+  }
+  
+  .payLeftTop span,
+  .payRightBot span {
     /* font-size: 18px; */
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: #F6F6F6;
-}
-
-.paymRight {
+    color: #f6f6f6;
+  }
+  
+  .paymRight {
     padding-top: 75px;
-}
-
-.paymRight span {
+  }
+  
+  .paymRight span {
     /* font-size: 18px; */
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: #F6F6F6;
-}
-
-
-
-.passes {
+    color: #f6f6f6;
+  }
+  
+  .passes {
     max-width: 1430px;
     width: 100%;
     margin-top: 50px;
-
-}
-
-
-
-.passTop {
+  }
+  
+  .passTop {
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
-
-.passTop h1 {
+  }
+  
+  .passTop h1 {
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
     letter-spacing: 0em;
     text-align: left;
-    color: #F6F6F6;
-}
-
-.passTop span,
-.passBot span {
+    color: #f6f6f6;
+  }
+  
+  .passTop span,
+  .passBot span {
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: #F6F6F6;
-}
-
-.passSp {
+    color: #f6f6f6;
+  }
+  
+  .passSp {
     font-weight: 600;
-}
-
-.passBot {
+  }
+  
+  .passBot {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
+  }
+  

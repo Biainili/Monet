@@ -38,8 +38,35 @@ ul {
     flex-direction: column;
     align-items: center;
     padding-inline: 100px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
 }
 
+.first-img-element_4 {
+    position: absolute;
+    width: 38.552vw;
+    height: 21.8vw;
+    left: 46.979vw;
+    top: 12.896vw;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+    background-image: url(../img/first-img-element_4.svg);
+    animation: appearFromRight 1.2s ease-in-out;
+    transform: rotate(0deg);
+  }
+  @keyframes appearFromRight {
+    0% {
+        left: 40.979vw;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        left: 46.979vw;
+    }
+}
 
 
 

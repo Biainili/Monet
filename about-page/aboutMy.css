@@ -476,6 +476,7 @@ ul {
     }
 }
 
+
 @keyframes spinR {
     0% {
         transform: rotate(0deg);

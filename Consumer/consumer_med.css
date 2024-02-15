@@ -4,6 +4,30 @@
         background-image: url(../img/consumer_14.svg);
         min-height: 821px;
     }
+    .first-img-element_4 {
+        position: absolute;
+        width: 42.552vw;
+        height: 23.8vw;
+        left: 50.979vw;
+        top: 21.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: -1;
+        background-image: url(../img/first-img-element_4.svg);
+        animation: appearFromRight 1.2s ease-in-out;
+        transform: rotate(7deg);
+    }
+    @keyframes appearFromRight {
+        0% {
+            left: 40.979vw;
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+            left: 50.979vw;
+        }
+    }
 
 
 
