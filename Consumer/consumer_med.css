@@ -1,9 +1,244 @@
 @media screen and (max-width:1440px) {
 
+
+    .bg_img_prov_7 {
+        position: absolute;
+        width: 110px;
+        height: 70px;
+        background-image: url(../img/logo_run_monet.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 50vw;
+        left: 82vw;
+        transform: rotate(37deg);
+        z-index: -2;
+        animation: fifth_M 85s linear infinite;
+    }
+
+    @keyframes fifth_M {
+        0% {
+            top: 80%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 50%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 28%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 18%;
+            left: 90%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 20%;
+            left: 45%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 90%;
+            left: 29%;
+        }
+
+        70% {
+            top: 35%;
+            left: 0%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 95%;
+            left: 80%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: 56%;
+            left: 0%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: 17%;
+            left: 8%;
+            transform: rotate(-360deg);
+        }
+    }
+
+
+    .ty_1 {
+        animation: fifth_M_ty_1 85s linear infinite;
+    }
+
+    @keyframes fifth_M_ty_1 {
+        0% {
+            top: 20%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 70%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 22%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 65%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 88%;
+            left: 60%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 5%;
+            left: 15%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 73%;
+            left: 96%;
+        }
+
+        70% {
+            top: 15%;
+            left: 1%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 81%;
+            left: 40%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: 5%;
+            left: 90%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: 95%;
+            left: 30%;
+            transform: rotate(-360deg);
+        }
+    }
+
+
+    .ty_2 {
+        animation: fifth_M_ty_2 85s linear infinite;
+    }
+
+    @keyframes fifth_M_ty_2 {
+        0% {
+            top: 35%;
+            left: 8%;
+            transform: rotate(0deg);
+        }
+
+        10% {
+            top: 85%;
+            left: 90%;
+            transform: rotate(20deg);
+        }
+
+
+        20% {
+            top: 44%;
+            left: 0%;
+            transform: rotate(50deg);
+        }
+
+        30% {
+            top: 95%;
+            left: 70%;
+            transform: rotate(90deg);
+        }
+
+        40% {
+            top: 8%;
+            left: 60%;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 78%;
+            left: 15%;
+            transform: rotate(100deg);
+        }
+
+        60% {
+            top: 1%;
+            left: 96%;
+        }
+
+        70% {
+            top: 85%;
+            left: 1%;
+            transform: rotate(0deg);
+        }
+
+        80% {
+            top: 6%;
+            left: 96%;
+            transform: rotate(-70deg);
+        }
+
+        90% {
+            top: 5%;
+            left: 40%;
+            transform: rotate(-170deg);
+        }
+
+
+        100% {
+            top: 95%;
+            left: 95%;
+            transform: rotate(-360deg);
+        }
+    }
+
+    /* Animations start end*/
+
+
     .consumeSect {
-        background-image: url(../img/consumer_14.svg);
         min-height: 821px;
     }
+
     .first-img-element_4 {
         position: absolute;
         width: 42.552vw;
@@ -17,12 +252,13 @@
         animation: appearFromRight 1.2s ease-in-out;
         transform: rotate(7deg);
     }
+
     @keyframes appearFromRight {
         0% {
             left: 40.979vw;
             opacity: 0;
         }
-    
+
         100% {
             opacity: 1;
             left: 50.979vw;
@@ -53,19 +289,31 @@
         background: linear-gradient(122.6deg, rgba(7, 40, 138, 0.92) 0.92%, rgba(0, 20, 71, 0.92) 48.5%);
         min-height: 404px;
         gap: 27px;
-        padding-top: 50px;
+        padding-top: 0px;
+        margin-top: 52px;
     }
 
 }
 
+
 @media screen and (max-width:1280px) {
     .consumeSect {
-        background-image: url(../img/consumer_12.svg);
         min-height: 810px;
     }
 
     .topSpa {
         margin-top: 45px;
+    }
+
+    .first-img-element_4 {
+        top: 26.896vw;
+    }
+
+    .consumerMain {
+        min-height: 411px;
+        gap: 27px;
+        padding-top: 55px;
+        margin-top: 0px;
     }
 
 }
@@ -77,9 +325,56 @@
 
 @media screen and (max-width:968px) {
     .consumeSect {
-        background-image: url(../img/consumer_9.svg);
         min-height: 678px;
     }
+
+    .consumerMain {
+        padding-top: 45px;
+        margin-top: 0px;
+    }
+  
+
+    .first-img-element_4 {
+        position: absolute;
+        width: 48.552vw;
+        height: 27.8vw;
+        left: 40.979vw;
+        top: 31.896vw;
+        background-size: cover;
+        overflow: hidden;
+        z-index: -1;
+        background-image: url(../img/first-img-element_4.svg);
+        animation: appearFromRight 1.2s ease-in-out;
+        transform: rotate(7deg);
+        display: block;
+    }
+
+    @keyframes appearFromRight {
+        0% {
+            left: 30.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 40.979vw;
+        }
+    }
+
+    .caker {
+        display: block;
+        top: 10%;
+    }
+
+
+    .sect1V2 {
+        width: 241px;
+        height: 241px;
+        top: 300px;
+        right: unset;
+        left: -152px;
+    }
+
     .topSpa {
         display: none;
     }
@@ -108,11 +403,40 @@
 @media screen and (max-width: 678px) {
 
     .consumeSect {
-        background-image: url(../img/consumer_6.svg);
         min-height: 826px;
         padding-inline: 16px;
     }
-    .consH1{
+
+
+    .caker {
+        top: 6%;
+    }
+
+    .first-img-element_4 {
+        width: 69.552vw;
+        height: 39.8vw;
+        left: 15.979vw;
+        top: 46.896vw;
+    }
+
+    @keyframes appearFromRight {
+        0% {
+            left: 7.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 15.979vw;
+        }
+    }
+
+    .orangeCircle1{
+        display: block;
+    }
+
+
+    .consH1 {
         max-width: 478px;
         width: 100%;
     }
@@ -144,9 +468,30 @@
 
 
     .consumeSect {
-        background-image: url(../img/consumer_4.svg);
         min-height: 753px;
         align-items: flex-start;
+    }
+
+    .bg_img_prov_7{
+        display: none;
+    }
+
+    .first-img-element_4 {
+        width: 43.552vw;
+        height: 24.8vw;
+        left: 47.979vw;
+        top: 70.896vw;
+    }
+    @keyframes appearFromRight {
+        0% {
+            left: 35.979vw;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+            left: 47.979vw;
+        }
     }
 
     .consCenterH1 {
@@ -156,6 +501,8 @@
     .consumeSect {
         padding-inline: 0px;
         padding-bottom: 0px;
+        background: #011855;
+
     }
 
     .consumerMain {
@@ -174,6 +521,8 @@
 
     .consumerMain {
         padding-top: 47px;
+        background: linear-gradient(122.6deg, rgba(7, 40, 138, 0.92) 0.92%, rgba(0, 20, 71, 0.92) 48.5%);
+
     }
 
     .consH1 {
@@ -208,8 +557,14 @@
 @media screen and (max-width: 320px) {
 
     .consumeSect {
-        background-image: url(../img/consumer_3.svg);
         min-height: 1025px;
+    }
+
+    .caker {
+        top: 4%;
+    }
+    .first-img-element_4, .orangeCircle1{
+        display: none;
     }
 
     .consH1 {

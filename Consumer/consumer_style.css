@@ -30,10 +30,6 @@ ul {
 .consumeSect {
     width: 100%;
     min-height: 820px;
-    background-image: url(/img/consumer_19.svg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +37,8 @@ ul {
     position: relative;
     z-index: 0;
     overflow: hidden;
+ background: linear-gradient(100.09deg, #0A30A3 0%,
+  #001447 58.57%);;
 }
 
 .first-img-element_4 {
@@ -114,6 +112,7 @@ span {
 }
 
 .consCenterH1{
+    display: block;
 font-size: 24px;
 font-weight: 500;
 line-height: 34px;
@@ -159,4 +158,7 @@ text-align: left;
     display: flex;
     align-items: center;
     gap: 12px;
+}
+.caker, .orangeCircle1{
+    display: none;
 }
