@@ -119,44 +119,20 @@
 } // Function for screen-width
 
 {
-  let cirDiv = document.querySelector(".wrapper-steps-main")
-
   document.addEventListener('DOMContentLoaded', function () {
-    const items = document.querySelectorAll('.itemMain');
+    const items = document.querySelectorAll('.itemMain, .items_6, .items_P ');
     let isScattered = false;
 
     function scatterAndCome() {
       items.forEach(item => {
+        const parentDiv = item.closest('.wrapper-steps-main, .sect_3, .onlySection1');
         if (isScattered) {
           item.style.transition = 'transform 5s ease-in-out';
           item.style.transform = 'translate(0, 0)';
         } else {
-          const randomX = Math.random() * cirDiv.clientWidth;
-          const randomY = Math.random() * cirDiv.clientHeight;
+          const randomX = Math.random() * parentDiv.clientWidth;
+          const randomY = Math.random() * parentDiv.clientHeight;
           item.style.transition = 'transform 5s ease';
-          item.style.transform = `translate(${randomX}px, ${randomY}px)`;
-        }
-      });
-      isScattered = !isScattered;
-    }
-    setInterval(scatterAndCome, 16000);
-  
-  });
-
-  let thrDiv = document.querySelector(".sect_3")
-  document.addEventListener('DOMContentLoaded', function () {
-    const items_6 = document.querySelectorAll('.items_6');
-    let isScattered = false;
-  
-    function scatterAndCome() {
-      items_6.forEach(item => {
-        if (isScattered) {
-          item.style.transition = 'transform 7s ease-in-out';
-          item.style.transform = 'translate(0, 0)';
-        } else {
-          const randomX = Math.random() * thrDiv.clientWidth;
-          const randomY = Math.random() * thrDiv.clientHeight;
-          item.style.transition = 'transform 7s ease';
           item.style.transform = `translate(${randomX}px, ${randomY}px)`;
         }
       });
@@ -165,51 +141,14 @@
     setInterval(scatterAndCome, 10000);
   });
 
-
 }// function for circle animation
 
 
 
 {
-  const circle = document.querySelector('.orangeCircle1');
-  function moveCircle() {
-    const top = Math.random() * 80 + 10;
-    const left = Math.random() * 80 + 10;
-
-    circle.style.top = `${top}%`;
-    circle.style.left = `${left}%`;
-  }
-
-  setInterval(moveCircle, 2000);
-} // function animation for home page
-
-{
-  const circle = document.querySelector('.orangeCircle1');
-  function moveCircle() {
-    const top = Math.random() * 80 + 10;
-    const left = Math.random() * 80 + 10;
-
-    circle.style.top = `${top}%`;
-    circle.style.left = `${left}%`;
-  }
-
-  
-  setInterval(moveCircle, 2000);
-  } // function animation for home page
-  
-  {
-    const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg, .second-img-element_4, .it1_1, .it1_2, .it1_3, .it1_4, .it1_5, .it1_55, .it2_5, .it3_5, .it4_5, .it5_5, .items_7, .straighTop');
-
-  setInterval(moveCircle, 2000);
-} // function animation for home page
-
-{
-  const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg, .second-img-element_4, .it1_1, .it1_2, .it1_3, .it1_4, .it1_5');
-
-
-
-  {
+  document.addEventListener('DOMContentLoaded', () => {
     const circle = document.querySelector('.orangeCircle1');
+
     function moveCircle() {
       const top = Math.random() * 80 + 10;
       const left = Math.random() * 80 + 10;
@@ -219,11 +158,17 @@
     }
 
     setInterval(moveCircle, 2000);
-  }
+  });
 } // function animation for home page
 
+
+
+
 {
-  const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg, .second-img-element_4, .it1_1, .it1_2, .it1_3, .it1_4, .it1_5, .monetSect5');
+  const elements = document.querySelectorAll('.sect2V3, .sect2V4, .itemm, .letter_lines, .letter_content, .class-m, .class-n, .class-e, .class-t, .logo_name_text, .monet_row_symbol, .monet_row_symbol_img, .third-img-element_3, .second-img-element_4, .quarters-img-element_1, .quarters-img-element_7, .quarters-img-element_5, .quarters_left_contant_bg, .second-img-element_4, .it1_1, .it1_2, .it1_3, .it1_4, .it1_5, .it1_55, .it2_5, .it3_5, .it4_5, .it5_5, .items_7, .straighTop, .backCircle1, .backCircle2, .uxix, .straighTop2, .minions');
+
+
+
 
 
   const options = {
@@ -251,6 +196,7 @@
     observer.observe(element);
     return observer;
   });
+
 } // function for animation to run in scrool
 
 

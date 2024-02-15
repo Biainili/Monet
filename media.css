@@ -33,6 +33,11 @@
       width: 100%;
    }
 
+   .mid3Right {
+      max-width: 477px;
+      width: 100%;
+   }
+
 }
 
 
@@ -458,14 +463,6 @@
 
    }
 
-   .footer {
-      padding-inline: 20px;
-   }
-
-   .footer-container-main {
-      gap: 0px;
-   }
-
 
 
    .sect_4 {
@@ -500,6 +497,221 @@
    .rainy1 {
       top: 46%;
       right: -4%;
+   }
+
+
+   /* sect_3 */
+
+   .sect_3 {
+      min-height: 1796px;
+   }
+
+   .uxix {
+      width: 355px;
+      height: 157px;
+      top: 52.6%;
+      left: -34%;
+      animation: duz 5s linear forwards;
+   }
+
+   @keyframes duz {
+      0% {
+         width: 355px;
+      }
+
+      50% {
+         width: 0px;
+      }
+
+      100% {
+         width: 355px;
+      }
+   }
+
+   .lf3Bott {
+      width: 221px;
+      height: 168px;
+      top: 75%;
+      left: 31%;
+      animation: moveIn2 10s ease-out infinite;
+   }
+
+   @keyframes moveIn2 {
+      0% {
+         top: 60%;
+         left: 10%;
+         opacity: 0;
+      }
+
+      50% {
+         top: 75%;
+         left: 31%;
+         opacity: 1;
+      }
+
+      100% {
+         opacity: 0;
+      }
+   }
+
+   .thrdGroupTop {
+      max-width: 1430px;
+      width: 100%;
+      min-height: 507px;
+   }
+
+
+   .top3right {
+      max-width: 480px;
+      width: 100%;
+      min-height: 300px;
+      padding-top: 0px;
+   }
+
+   .top3right img {
+      width: 100%;
+   }
+
+
+
+   .left3Top,
+   .right3MidT,
+   .left3MidT {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   }
+
+   .left3Bot,
+   .right3MidB,
+   .left3MidB {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFFFFFB2;
+   }
+
+   .left3Bot,
+   .left3Top {
+      display: inline-block;
+      max-width: 606px;
+      width: 100%;
+   }
+
+   .lfBt3N {
+      display: none;
+   }
+
+   .theBoy19,
+   .twoBoys19 {
+      display: none;
+   }
+
+   .theBoy14,
+   .twoBoys14 {
+      display: block;
+   }
+
+   .twoBoys14 {
+      margin-top: -123px;
+      margin-left: 76px;
+   }
+
+   .straighTop {
+      background-image: url(./img/straight2.svg);
+      background-size: 73%;
+      top: 43.4%;
+      right: -30%;
+      animation: sect3str 2s ease-out forwards;
+   }
+
+   .circleses_7 {
+      top: 81.5%;
+      right: 14.1%;
+   }
+
+   .mid3Left img {
+      width: 100%;
+      margin: 58px 7px;
+   }
+
+   .mid3Right {
+      max-width: 604px;
+      width: 100%;
+      padding-top: 40px;
+   }
+
+   .right3MidB {
+      display: inline-block;
+      width: 604px;
+   }
+
+   .backCircle1 {
+      top: 27%;
+      left: 9%;
+      width: 360px;
+      height: 360px;
+   }
+
+   .backCircle2 {
+      position: absolute;
+      top: 15%;
+      left: 3%;
+      width: 450px;
+      height: 450px;
+   }
+
+
+   .backCircle2 {
+      top: 15%;
+      left: 2%;
+   }
+
+   .thrdGroupBot {
+      min-height: 597px;
+   }
+
+   .circleses_6 {
+      top: 27.9%;
+      left: 5.4%;
+   }
+
+   .right3Bot {
+      max-width: 603px;
+      width: 100%;
+      margin-top: 50px;
+   }
+
+   .left3Bottom img {
+      width: 82%;
+      margin: 12px 108px;
+   }
+
+   .rain4 {
+      top: 89.7%;
+      left: 7%;
+   }
+
+   .rain3 {
+      display: none;
+   }
+
+   .circle3 {
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      top: 58%;
+      left: -11%;
+   }
+
+   .mid3Left {
+      max-width: 470px;
+      width: 100%;
    }
 
 
@@ -598,29 +810,7 @@
 
    }
 
-   /* sect_3 */
 
-   .left3Top,
-   .right3MidT,
-   .left3MidT {
-      font-size: 24px;
-      font-weight: 500;
-      line-height: 34px;
-      letter-spacing: 0em;
-      text-align: left;
-
-   }
-
-   .left3Bot,
-   .right3MidB,
-   .left3MidB {
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: 0em;
-      text-align: left;
-      color: #FFFFFFB2;
-   }
 
 
 
@@ -695,6 +885,8 @@
 
    .sect_1 {
       background-image: url(./img/sect_1_12.svg);
+      min-height: 1030px;
+
    }
 
    .orangeCircle1 {
@@ -745,16 +937,58 @@
       background-image: unset;
       background: linear-gradient(99.81deg, #0A30A3 -0.37%, #001447 55.23%);
       height: 1902px;
+   }
 
+   .uxix {
+      width: 229px;
+      height: 97px;
+      top: 68.6%;
+      left: -36%;
+      animation: duz 5s linear forwards;
+   }
+
+   @keyframes duz {
+      0% {
+         width: 355px;
+      }
+
+      50% {
+         width: 0px;
+      }
+
+      100% {
+         width: 355px;
+      }
+   }
+
+   .lf3Bott {
+      width: 221px;
+      height: 168px;
+      top: 81%;
+      left: 14%;
+      animation: moveIn2 10s ease-out infinite;
+   }
+
+   @keyframes moveIn2 {
+      0% {
+         top: 60%;
+         left: 7%;
+         opacity: 0;
+      }
+
+      50% {
+         top: 81%;
+         left: 14%;
+         opacity: 1;
+      }
+
+      100% {
+         opacity: 0;
+      }
    }
 
 
 
-
-
-   .sect_1 {
-      min-height: 1030px;
-   }
 
 
    .frMainRight {
@@ -1078,6 +1312,115 @@
    }
 
 
+   /* sect_3 */
+
+   .sect_3 {
+      min-height: 1902px;
+   }
+
+
+
+   
+
+
+
+
+
+
+   .thrdGroupTop {
+      min-height: 573px;
+   }
+
+   .twoBoys14 {
+      margin-top: -136px;
+      margin-left: -43px;
+   }
+
+   .circleses_7 {
+      top: 80.5%;
+      right: 27.1%;
+   }
+
+
+   .straighTop {
+      top: 43.4%;
+      right: -18%;
+   }
+
+   .left3Top {
+      max-width: 518px;
+      width: 100%;
+   }
+
+
+   .top3Left {
+      margin-bottom: 120px;
+      max-width: 534px;
+      width: 100%;
+   }
+
+   .left3Bot,
+   .left3Top {
+      max-width: 500px;
+      width: 100%;
+   }
+
+   .mid3Right {
+      max-width: 520px;
+      width: 100%;
+   }
+
+   .right3MidB {
+      max-width: 537px;
+      width: 100%;
+   }
+
+   .backCircle1 {
+      top: 29%;
+      left: 13%;
+   }
+
+   .backCircle2 {
+      top: 17%;
+      left: 5%;
+   }
+
+   .circle3 {
+      top: 60%;
+      left: -14%;
+   }
+
+   .right3Bot {
+      max-width: 603px;
+      width: 100%;
+      margin-top: 77px;
+   }
+
+   .rain4 {
+      top: 91.7%;
+      left: 8%;
+   }
+
+   .left3Bottom img {
+      width: 107%;
+      margin: 0px 0px;
+   }
+
+   .circleses_6 {
+      top: 25.9%;
+      left: 5.4%;
+      transform: rotate(-48deg);
+   }
+
+   .left3Bottom {
+      max-width: 411px;
+      width: 100%;
+      min-height: 459px;
+   }
+
+
+
+
    /* sect4 */
 
    .items_4 {
@@ -1155,6 +1498,13 @@
 
 
 
+@media screen and (max-width: 1200px) {
+
+   .sect_3 {
+      padding-inline: 50px;
+   }
+
+}
 
 
 
@@ -1165,6 +1515,24 @@
    .firstMain {
       padding-inline: 10px;
       padding-left: 100px;
+   }
+
+   .top3Left {
+      margin-bottom: 0;
+   }
+
+   .mid3Left img {
+      width: max-content;
+      margin: 58px 7px;
+   }
+
+   .top3right img {
+      width: max-content;
+   }
+
+   .thrdGroupMid {
+      justify-content: unset;
+      gap: 20px;
    }
 }
 
@@ -1875,6 +2243,60 @@
       min-height: 700px;
    }
 
+
+
+   /* sect_3 */
+
+   .sect_3 {
+      min-height: 2135px;
+      padding-inline: 100px;
+   }
+   .uxix,
+   .lf3Bott {
+      display: none;
+
+   }
+   
+
+
+   .thrdGroupTop,
+   .thrdGroupBot {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+   }
+
+   .thrdGroupMid {
+      min-height: 681px;
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   .thrdGroupTop {
+      min-height: 788px;
+      display: flex;
+      justify-content: unset;
+   }
+
+   .top3right img {
+      width: 87%;
+   }
+
+
+
+
+   .left3Top,
+   .left3Bot {
+      max-width: 633px;
+      width: 100%;
+   }
+
+
+
+
+
+
+
    .sect_4 {
       min-height: 1024px;
       align-items: center;
@@ -1918,6 +2340,42 @@
       100% {
          opacity: 0;
       }
+   }
+
+
+   .straighTop2 {
+      display: block;
+      width: 281px;
+      height: 187px;
+      position: absolute;
+      background-image: url(./img/straight2.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      top: 42.4%;
+      right: -2%;
+      z-index: 1;
+      animation: sect3str1 2s ease-out forwards alternate;
+      transform: rotate(17deg);
+   }
+
+   @keyframes sect3str1 {
+      0% {
+         height: 187px;
+
+      }
+
+      50% {
+         height: 0px;
+      }
+
+      100% {
+         height: 187px;
+      }
+   }
+
+   .miniCircle {
+      top: 108px;
+      left: 84px;
    }
 
 
@@ -2013,10 +2471,219 @@
    }
 
 
+   .top3Left {
+      margin-bottom: 0px;
+      max-width: 770px;
+      width: 100%;
+      margin-top: 57px;
+   }
+
+   .lfBt3N {
+      display: block;
+   }
+
+   .lfBt3B {
+      display: none;
+   }
+
+   .top3right {
+      max-width: 410px;
+      width: 100%;
+      min-height: 300px;
+      padding-top: 40px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+   }
 
 
+   .mid3Left {
+      max-width: 490px;
+      width: 100%;
+      min-height: 530px;
+      position: relative;
+      z-index: 0;
+      padding-top: 0px;
+      display: flex;
+      justify-content: center;
+   }
+
+   .mid3Left img {
+      width: 72%;
+      margin: 0;
+   }
+
+   .thrdGroupMid {
+      gap: 0px;
+   }
+
+   .mid3Right {
+      max-width: 765px;
+      width: 100%;
+      padding-top: 0px;
+      min-height: 186px;
+      width: 100%;
+   }
+
+   .thrdGroupMid {
+      justify-content: unset;
+      gap: 0px;
+      align-items: center;
+   }
+
+   .right3MidB {
+      max-width: 631px;
+      width: 100%;
+   }
+
+   .twoBoys14 {
+      display: none;
+   }
+
+   .twoBoys9 {
+      display: block;
+   }
+
+   .straighTop {
+      width: 278px;
+      height: 185px;
+      top: 59.4%;
+      right: 3%;
+      background-size: 100%;
+   }
+
+   @keyframes sect3str {
+      0% {
+         height: 0px;
+      }
+
+      100% {
+         height: 185px;
+      }
+   }
+
+   .circleses_7 {
+      top: 92.5%;
+      right: 31.1%;
+      transform: rotate(330deg);
+      gap: 20px;
+   }
+
+   .items_7 {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      border: 3px solid #FFFFFF;
+   }
+
+   .backCircle1 {
+      top: 18%;
+      left: 21%;
+      width: 294px;
+      height: 294px;
+   }
+
+   .backCircle2 {
+      top: 4%;
+      left: 14%;
+      width: 365px;
+      height: 365px;
+   }
+
+   .right3Bot {
+      max-width: 766px;
+      width: 100%;
+      margin-top: 0px;
+   }
+
+   .left3MidT {
+      display: inline-block;
+      max-width: 609px;
+      width: 100%;
+   }
+
+
+   .circle3 {
+      top: 81%;
+      left: -17%;
+      width: 290px;
+      height: 290px;
+   }
+
+   .right3Bot {
+      min-height: 240px;
+   }
+
+   .left3MidB {
+
+      display: inline-block;
+      max-width: 631px;
+      width: 100%;
+   }
+
+   .left3Bottom img {
+      width: 100%;
+      margin: 0px -34px;
+   }
+
+   .left3Bottom {
+      max-width: 291px;
+      width: 100%;
+      min-height: 385px;
+   }
+
+   .thrdGroupBot {
+      min-height: 664px;
+   }
+
+   .rain4 {
+      top: 79.7%;
+      right: 18%;
+      left: unset;
+      width: 62px;
+      height: 62px;
+
+   }
+
+   @keyframes comeRain4 {
+      0% {
+         height: 0px;
+         opacity: 0;
+      }
+
+      50% {
+         opacity: 1;
+         height: 62px;
+      }
+
+      100% {
+         opacity: 0;
+      }
+   }
+
+   .circleses_6 {
+      display: none;
+   }
+
+   .rain3 {
+      display: block;
+      top: 30%;
+      right: 13%;
+   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2035,7 +2702,17 @@
    .sect_4 {
       align-items: center;
    }
+
+   .top3right {
+      width: max-content;
+   }
+
+   .sect_3 {
+      min-height: 2135px;
+      padding-inline: 50px;
+   }
 }
+
 
 
 
@@ -2134,6 +2811,94 @@
       min-height: 180px;
    }
 
+   /* scet_3 */
+
+
+   .sect_3 {
+      padding-inline: 94px;
+      min-height: 2214px;
+   }
+
+   .circle3 {
+      top: 78%;
+      left: -27%;
+   }
+
+
+   .top3Left {
+      margin-top: 47px;
+   }
+
+   .top3Left {
+      gap: 15px;
+   }
+
+   .top3right {
+      width: 100%;
+   }
+
+   .circleses_7 {
+      top: 95.5%;
+   }
+
+   .straighTop {
+      top: 62.4%;
+      right: 2%;
+   }
+
+   .rig3MidN,
+   .theBoy6 {
+      display: block;
+   }
+
+   .rig3MidB,
+   .theBoy14 {
+      display: none;
+   }
+
+
+   .mid3Left {
+      max-width: 380px;
+      width: 100%;
+      min-height: 493px;
+      padding-top: 60px;
+   }
+
+   .mid3Left img {
+      width: 100%;
+      margin: 0;
+   }
+
+   .left3MidB {
+      display: inline-block;
+      max-width: 478px;
+      width: 100%;
+   }
+
+   .left3Bottom {
+      max-width: 293px;
+      width: 100%;
+      min-height: 305px;
+   }
+
+   .left3Bottom img {
+      width: 100%;
+      margin: 0px -33px;
+   }
+
+   .backCircle1 {
+      top: 22%;
+      left: 9%;
+   }
+
+   .backCircle2 {
+      top: 7%;
+      left: 0%;
+   }
+
+   .mid3Right {
+      z-index: 1;
+   }
 
 
 
@@ -2431,6 +3196,16 @@
    .firstMain {
       padding-inline: 16px;
    }
+
+   .sect_3 {
+      padding-inline: 50px;
+   }
+
+   .straighTop {
+      width: 68%;
+      top: 59.4%;
+      right: 3%;
+   }
 }
 
 
@@ -2498,6 +3273,20 @@
       background-size: 90%;
    }
 
+   .top3right {
+      padding-top: 20px;
+   }
+
+   .straighTop {
+      width: 60%;
+      top: 60.4%;
+      right: 13%;
+   }
+
+   .circleses_7 {
+      top: 87.5%;
+   }
+
 }
 
 
@@ -2506,6 +3295,12 @@
 @media (max-width: 520px) {
    .sect_1 {
       height: 1930px;
+   }
+
+   .mid3Left,
+   .top3right,
+   .left3Bottom {
+      width: max-content;
    }
 }
 
@@ -2536,6 +3331,10 @@
    .enjoyMon {
       font-size: 26px;
    }
+
+   .thrdGroupBot {
+      gap: 30px;
+   }
 }
 
 
@@ -2549,6 +3348,18 @@
    .sect_1 {
       height: 1990px;
    }
+
+   .straighTop {
+      width: 60%;
+      top: 55.4%;
+      right: 13%;
+   }
+
+   .circleses_7 {
+      top: 80.5%;
+   }
+
+
 }
 
 
@@ -2559,6 +3370,10 @@
 @media screen and (max-width: 440px) {
    .innMed {
       margin-top: 300px;
+   }
+
+   .thrdGroupBot {
+      gap: 60px;
    }
 }
 
@@ -3029,6 +3844,127 @@
 
 
 
+   /* sect_3 */
+
+   .sect_3 {
+      padding-inline: 16px;
+      min-height: 2454px;
+   }
+
+   .left3Bottom img {
+      width: 100%;
+      margin: 10px -34px;
+   }
+
+   .circle3 {
+      top: 86%;
+      left: -49%;
+   }
+
+   .rain3 {
+      display: block;
+      top: 33%;
+      right: -7%;
+   }
+
+
+   .rain4 {
+      top: 87%;
+      right: 10%;
+      left: unset;
+      width: 29px;
+      height: 39px;
+   }
+
+   @keyframes comeRain4 {
+      0% {
+         height: 0px;
+         opacity: 0;
+      }
+
+      50% {
+         opacity: 1;
+         height: 39px;
+      }
+
+      100% {
+         opacity: 0;
+      }
+   }
+
+
+   .straighTop2 {
+      top: 57.4%;
+   }
+
+   .thrdGroupTop {
+      min-height: 899px;
+   }
+
+   .top3Left {
+      margin-top: 57px;
+   }
+
+
+   .straighTop {
+      width: 72%;
+      top: 49.4%;
+      right: 0%;
+   }
+
+
+   .top3right {
+      max-width: 410px;
+      width: 100%;
+      min-height: 350px;
+      margin-top: 33px;
+   }
+
+   .top3right img {
+      width: 90%;
+   }
+
+   .circleses_7 {
+      top: 81.5%;
+   }
+
+   .monetBr {
+      display: block;
+   }
+
+   .right3Bot {
+      min-height: 359px;
+   }
+
+   .left3MidT {
+      margin-top: 38px;
+   }
+
+   .thrdGroupBot {
+      gap: 40px;
+   }
+
+   .mid3Right {
+      gap: 10px;
+   }
+
+   .left3MidT {
+      margin-top: 48px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    .sect_4 {
       padding-inline: 16px;
    }
@@ -3203,6 +4139,14 @@
       position: absolute;
       top: 11%;
       left: 57.5%;
+   }
+
+   .top3right {
+      width: max-content;
+   }
+
+   .left3Bottom {
+      width: 100%;
    }
 
 }
@@ -3494,6 +4438,12 @@
 
    /* sect_3 */
 
+
+   .sect_3 {
+      min-height: 2054px;
+   }
+
+
    .left3Top,
    .right3MidT,
    .left3MidT {
@@ -3516,6 +4466,149 @@
       text-align: left;
 
    }
+
+   .thrdGroupTop {
+      min-height: 773px;
+   }
+
+   .top3Left {
+      margin-top: 43px;
+   }
+
+   .top3right {
+      max-width: 286px;
+      width: 100%;
+      min-height: 300px;
+      padding-top: 33px;
+   }
+
+   .top3right img {
+      width: 85%;
+   }
+
+   .straighTop {
+      width: 72%;
+      top: 46.4%;
+      right: 0%;
+   }
+
+   .circleses_7 {
+      gap: 12px;
+      top: 73.5%;
+      right: 32.1%;
+   }
+
+   .items_7 {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      border: 2px solid #FFFFFF;
+   }
+
+   .rain3 {
+      display: block;
+      top: 27%;
+      right: -18%;
+   }
+
+   .mid3Left {
+      max-width: 380px;
+      width: 100%;
+      min-height: 361px;
+      padding-top: 80px;
+   }
+
+   .thrdGroupMid {
+      min-height: 574px;
+   }
+
+   .backCircle1 {
+      top: 27%;
+      left: 9%;
+      width: 221px;
+      height: 221px;
+   }
+
+   .backCircle2 {
+      top: 13%;
+      left: 1%;
+      width: 274px;
+      height: 274px;
+   }
+
+   .left3Bottom {
+      max-width: 200px;
+      width: 100%;
+      min-height: 272px;
+   }
+
+   .left3Bottom img {
+      width: 100%;
+      margin: 0px -24px;
+   }
+
+   .rain4 {
+      top: 75%;
+      right: 5%;
+      left: unset;
+      width: 33px;
+      height: 35px;
+      animation: none;
+      transform: rotate(349deg);
+   }
+
+   .circle3 {
+      top: 74%;
+      left: -43%;
+      width: 206px;
+      height: 206px;
+   }
+
+   .straighTop2 {
+      width: 191px;
+      height: 127px;
+      top: 40.4%;
+      right: -1%;
+   }
+
+   @keyframes sect3str1 {
+      0% {
+         height: 127px;
+      }
+      50% {
+         height: 0px;
+      }
+      100% {
+         height: 127px;
+      }
+   }
+   .miniCircle {
+      top: 68px;
+      left: 56px;
+      gap: 15px;
+  }
+  .minions {
+   width: 4px;
+   height: 4px;
+   border: 2px solid #FFFFFF;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    .sect_4 {
       height: 1024px;
@@ -4002,6 +5095,19 @@
    .sect2Items2 p {
       font-size: 24px;
    }
+
+   .top3right,
+   .mid3Left {
+      width: max-content;
+   }
+
+   .backCircle1 {
+      left: 20%;
+   }
+
+   .backCircle2 {
+      left: 13%;
+   }
 }
 
 
@@ -4043,6 +5149,9 @@
       height: 35%;
    }
 
+   .left3Bottom {
+      min-height: 211px;
+   }
 
 }
 
@@ -4073,6 +5182,10 @@
 
    .closeSP {
       margin-top: 40px;
+   }
+
+   .left3MidT {
+      margin-top: 0px;
    }
 
 
