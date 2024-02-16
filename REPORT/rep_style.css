@@ -92,6 +92,15 @@ span {
     letter-spacing: 0em;
     text-align: left;
     color: #F6F6F6B2;
+    cursor: pointer; 
+}
+.finRep :hover {
+    color: #ffb763 
+}
+
+.finRep a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .bg_img_report_1 {

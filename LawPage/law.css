@@ -31,6 +31,7 @@ ul {
     background: linear-gradient(100.09deg, #0A30A3 0%, #001447 58.57%);
     padding-inline: 100px;
     overflow: hidden;
+    z-index: 0;
 }
 
 .newDiv {
@@ -64,6 +65,20 @@ ul {
     text-align: start;
     color: #FFFFFF;
 }
+
+.LawAll:hover {
+    cursor: pointer;
+    color: #ffb25f;
+}
+
+.LawAll:active {
+    color: #ff7233;
+}
+
+.LawAll {
+    color: inherit;
+}
+
 
 .general-container {
     display: flex;

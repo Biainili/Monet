@@ -74,6 +74,15 @@ ul {
     margin-bottom: 50px;
 }
 
+.allAboutA:hover {
+    cursor: pointer;
+    color: #ffb25f;
+  }
+  
+  .allAboutA:active {
+    color: #ff7233;
+  }
+
 .left-content h1 {
     /* font-size: 34px; */
     font-size: 30px;

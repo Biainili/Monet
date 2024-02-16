@@ -171,9 +171,12 @@ span {
   letter-spacing: 0.01em;
   text-align: center;
   color: #ffffff;
+  z-index: 1;
 }
 
+
 .topSpa a:hover {
+  cursor: pointer;
   color: #ffb25f;
 }
 

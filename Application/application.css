@@ -16,6 +16,17 @@ body {
 
 }
 
+.allApplic:hover {
+    color: #FFB25F;
+}
+
+.allApplic:active {
+    color: #FF7233;
+}
+.allApplic{
+    color: inherit;
+}
+
 
 a {
     text-decoration: none;
@@ -71,6 +82,15 @@ ul {
     letter-spacing: 0.01em;
     text-align: start;
     color: #FFFFFF;
+}
+
+.all-aplication h4:nth-child(1) a:hover {
+    cursor: pointer;
+    color: #ffb25f;
+}
+
+.all-aplication h4:nth-child(1) a:active {
+    color: #ff7233;
 }
 
 .general-content-aplication {
