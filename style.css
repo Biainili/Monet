@@ -109,7 +109,7 @@ ul {
     top: 17.5%;
     left: 46.5%;
     animation: third 85s linear infinite alternate;
-    z-index: 0;
+    z-index: -1;
 }
 
 @keyframes third {
@@ -469,11 +469,11 @@ ul {
 .circleses_1 {
     display: flex;
     gap: 31px;
-    z-index: 1;
     position: absolute;
     top: 110px;
     right: 25px;
     transform: rotate(314deg);
+    display: none;
 }
 
 .items_1 {
@@ -481,34 +481,34 @@ ul {
     height: 10px;
     border-radius: 50%;
     border: 5px solid #FFFFFF;
-    
+
 
 }
 
 .it1_1 {
-    animation: kitt 2s linear forwards;
+    animation: kitt 2s linear infinite;
 }
 
 
 .it2_1 {
-    animation: kitt 5s linear forwards;
+    animation: kitt 5s linear infinite;
 
 }
 
 
 .it3_1 {
-    animation: kitt 8s ease forwards;
+    animation: kitt 8s ease infinite;
 
 }
 
 
 .it4_1 {
-    animation: kitt 11s ease forwards;
+    animation: kitt 11s ease infinite;
 
 }
 
 .it5_1 {
-    animation: kitt 14s ease forwards;
+    animation: kitt 14s ease infinite;
 
 }
 
@@ -646,9 +646,8 @@ ul {
     z-index: 1;
     position: absolute;
     top: 360px;
-    right: 767px;
+    right: 519px;
     transform: rotate(316deg);
-    display: subgrid;
 }
 
 
@@ -1250,10 +1249,11 @@ div {
     color: #B3DD62;
 }
 
-/* .left3Top {
+.left3MidB {
     display: inline-block;
-    width: 638px;
-} */
+    max-width: 686px;
+    width: 100%;
+}
 
 .left3Bot,
 .right3MidB,
@@ -1264,6 +1264,12 @@ div {
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFFB2;
+}
+
+.left3Bot {
+    display: inline-block;
+    max-width: 613px;
+    width: 100%;
 }
 
 .top3right {
@@ -1427,16 +1433,17 @@ div {
 .mid3Right {
     max-width: 559px;
     width: 100%;
-    min-height: 278px;
+    min-height: 313px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    padding-top: 23px;
+    gap: 45px;
+    padding-top: 0px;
 }
 
 .right3MidB {
     display: inline-block;
-    width: 481px;
+    max-width: 481px;
+    width: 100%;
 }
 
 .lfBt3N {
@@ -1473,9 +1480,9 @@ div {
 }
 
 .left3Bottom {
-    max-width: 528px;
+    max-width: 539px;
     width: 100%;
-    min-height: 512px;
+    min-height: 581px;
     position: relative;
 }
 
@@ -1727,14 +1734,13 @@ div {
 @keyframes colorChange {
     0% {
         opacity: 0;
-        border: 5px solid #05C0C7;
+        border: 1px solid #05C0C7;
         transform: rotate(0deg);
     }
 
     50% {
         opacity: 1;
-        transform: rotate(314deg);
-        border: 5px solid #FFFFFF;
+        border: 3px solid #FFFFFF;
 
     }
 
@@ -2076,6 +2082,7 @@ div {
 .monetBr,
 .straighTop2,
 .circleses_8,
-.items_8 {
+.items_8,
+.circleses_11 {
     display: none;
 }

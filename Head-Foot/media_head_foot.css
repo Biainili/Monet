@@ -23,7 +23,6 @@
 @media screen and (max-width: 1620px) and (min-width:1440px) {
 
 
-
    .topRight {
       max-width: 400px;
    }
@@ -42,6 +41,10 @@
    footer {
       background-image: url(../img/Footer14.svg);
       background-size: cover;
+   }
+
+   .leftTop {
+      width: 66%;
    }
 
    .footCircle {
@@ -194,6 +197,22 @@
       max-width: 267px;
       gap: 46px;
    }
+
+   .leftBot span {
+      font-size: 16px;
+   }
+
+   .leftBot span {
+      font-size: 16px;
+   }
+
+   .leftTop {
+      width: 91%;
+   }
+
+   .ibotInn {
+      padding-inline: 40px;
+   }
 }
 
 
@@ -204,6 +223,11 @@
       background-image: url(../img/Footer12.svg);
       background-size: cover;
       padding-inline: 50px;
+   }
+
+   .circleses_5 {
+      top: 52%;
+      right: 15.7%;
    }
 
    .footerPage {
@@ -304,6 +328,10 @@
       gap: 20px;
       padding-left: 20px;
    }
+
+   .ibotInn {
+      padding-inline: 40px;
+   }
 }
 
 
@@ -365,12 +393,24 @@
       width: 100%;
    }
 
-   .topLeft {
-      max-width: 210px;
-      gap: 30px;
+   .midLeft ul li a,
+   .midRight ul li a {
+      font-size: 16px;
+      display: inline-block;
+      width: max-content;
    }
 
-   .leftMid {
+   .midRight {
+      max-width: 178px;
+      width: 100%;
+   }
+
+   /* .topLeft {
+      max-width: 210px;
+      gap: 30px;
+   } */
+
+   /* .leftMid {
       height: 40px;
       margin-top: 0px;
    }
@@ -379,7 +419,7 @@
       margin-top: -0px;
       max-width: 300px;
       width: 100%;
-   }
+   } */
 
 
 
@@ -403,9 +443,6 @@
       width: 100%;
    }
 
-
-
-
 }
 
 @media screen and (max-width: 1060px) {
@@ -427,6 +464,9 @@
       min-height: 770px;
       background-image: url(/img/footer9.svg);
    }
+   .leftTop {
+      width: 100%;
+  }
 
 
    .circleses_5 {
@@ -506,13 +546,14 @@
    .footLogo9 {
       display: block;
    }
+
    .leftTop img {
       transition: transform 0.3s ease-in-out;
-  }
-  
-  .leftTop a:hover .footLogo9 {
+   }
+
+   .leftTop a:hover .footLogo9 {
       transform: rotate(360deg);
-  }
+   }
 
 
 
@@ -615,7 +656,7 @@
 
    .ibotInn ul {
       gap: 33px;
-      max-width: 400px;
+      max-width: 348px;
       margin-top: 0px;
    }
 
@@ -653,7 +694,6 @@
    .leftTop {
       align-items: center;
    }
-
    .topLeft {
       max-width: 334px;
       width: 100%;
@@ -663,8 +703,13 @@
       top: 288px;
       left: 0px;
       gap: 30px;
-   }
+      display: flex;
+      align-items: center;
+  }
 
+  .ibotInn {
+   padding-inline: 0px;
+}
 
    .topMid {
       max-width: 639px;
@@ -802,6 +847,13 @@
    .midRight ul li a {
       font-size: 16px;
    }
+   .leftBot span {
+      font-size: 18px;
+   }
+   .leftBot {
+      margin-top: 0px;
+      width: 332px;
+  }
 
    .pageHeader {
       max-width: 478px;
@@ -1081,13 +1133,14 @@
    .footLogo4 {
       display: block;
    }
+
    .leftTop img {
       transition: transform 0.3s ease-in-out;
-  }
-  
-  .leftTop a:hover .footLogo4 {
+   }
+
+   .leftTop a:hover .footLogo4 {
       transform: rotate(360deg);
-  }
+   }
 
    .footLogo9 {
       display: none;
@@ -1163,6 +1216,9 @@
    .pageHeader,
    header {
       height: 70px;
+   }
+   .leftBot span {
+      font-size: 16px;
    }
 
    footer {
@@ -1345,10 +1401,6 @@
 .midLeft ul li a,
 .midRight ul li a {
    font-size: 16px;
-}
-
-.leftBot span {
-   font-size: 12px;
 }
 
 .ibotInn ul li a {

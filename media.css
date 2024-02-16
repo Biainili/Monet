@@ -92,7 +92,23 @@
       }
    }
 
+   .circleses_1 {
+      display: block;
+      display: flex;
+      gap: 22px;
+      top: 44%;
+      right: unset;
+      left: 6%;
+      transform: rotate(134deg);
+      z-index: -1;
+   }
 
+   .items_1 {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      border: 3px solid #FFFFFF;
+   }
 
 
    .sect_2 {
@@ -511,7 +527,7 @@
       height: 157px;
       top: 52.6%;
       left: -34%;
-      animation: duz 5s linear forwards;
+      animation: duz 2s linear forwards;
    }
 
    @keyframes duz {
@@ -531,8 +547,8 @@
    .lf3Bott {
       width: 221px;
       height: 168px;
-      top: 75%;
-      left: 31%;
+      top: 73%;
+      left: 33%;
       animation: moveIn2 10s ease-out infinite;
    }
 
@@ -544,8 +560,8 @@
       }
 
       50% {
-         top: 75%;
-         left: 31%;
+         top: 73%;
+         left: 33%;
          opacity: 1;
       }
 
@@ -643,17 +659,19 @@
    .mid3Right {
       max-width: 604px;
       width: 100%;
-      padding-top: 40px;
+      padding-top: 59px;
+      gap: 27px;
    }
 
    .right3MidB {
       display: inline-block;
-      width: 604px;
+      max-width: 604px;
+      width: 100%;
    }
 
    .backCircle1 {
       top: 27%;
-      left: 9%;
+      left: 13%;
       width: 360px;
       height: 360px;
    }
@@ -661,7 +679,7 @@
    .backCircle2 {
       position: absolute;
       top: 15%;
-      left: 3%;
+      left: 4.5%;
       width: 450px;
       height: 450px;
    }
@@ -688,8 +706,8 @@
    }
 
    .left3Bottom img {
-      width: 82%;
-      margin: 12px 108px;
+      width: 80%;
+      margin: 47px 117px;
    }
 
    .rain4 {
@@ -901,7 +919,11 @@
       left: 14.4%;
    }
 
-
+   .circleses_1 {
+      gap: 23px;
+      top: 45%;
+      left: 7%;
+   }
 
 
    .caker {
@@ -941,7 +963,7 @@
 
    .uxix {
       width: 229px;
-      height: 155px;
+      height: 92px;
       top: 68.6%;
       left: -36%;
       animation: duz 5s linear forwards;
@@ -949,7 +971,7 @@
 
    @keyframes duz {
       0% {
-         width: 355px;
+         width: 229px;
       }
 
       50% {
@@ -957,7 +979,7 @@
       }
 
       100% {
-         width: 355px;
+         width: 229px;
       }
    }
 
@@ -1001,7 +1023,6 @@
 
    .firstMain {
       gap: 0px;
-      padding-inline: 0px;
       padding-inline: 100px;
       z-index: 1;
    }
@@ -1200,7 +1221,7 @@
    .sect_2 {
       padding-inline: 0px;
       justify-content: space-evenly;
-      background-image: url(./img/sect_2_9.svg);
+      background-image: url(./img/sect_2_12.svg);
    }
 
 
@@ -1512,7 +1533,7 @@
 @media screen and (max-width: 1150px) {
 
    .firstMain {
-      padding-inline: 10px;
+      padding-inline: 50px;
       padding-left: 100px;
    }
 
@@ -1566,6 +1587,20 @@
 }
 
 
+@media (max-width: 1070px) and (min-width:968px) {
+   .firstMain {
+      padding-inline: 20px;
+      padding-left: 100px;
+   }
+}
+
+@media (max-width: 1040px) and (min-width:968px) {
+   .firstMain {
+      padding-inline: 10px;
+      padding-left: 100px;
+   }
+}
+
 
 
 
@@ -1574,8 +1609,9 @@
 
 @media (max-width: 1020px) and (min-width:968px) {
    .frMainRight {
-      max-width: 543px;
-      width: 100%;
+      max-width: 478px;
+      width: max-content;
+      justify-content: center;
    }
 
 }
@@ -1611,13 +1647,62 @@
       right: 750px;
    }
 
+   .circleses_1 {
+      display: none;
+   }
+
+   .circleses_11 {
+      display: flex;
+      position: absolute;
+      gap: 31px;
+      top: 111px;
+      right: 28px;
+      transform: rotate(314deg);
+      z-index: 1;
+   }
+
+   .items_11 {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 5px solid #FFFFFF;
+
+
+   }
+
+   .it1_11 {
+      animation: kitt 2s linear infinite;
+   }
+
+
+   .it2_11 {
+      animation: kitt 5s linear infinite;
+
+   }
+
+
+   .it3_11 {
+      animation: kitt 8s ease infinite;
+
+   }
+
+
+   .it4_11 {
+      animation: kitt 11s ease infinite;
+
+   }
+
+   .it5_11 {
+      animation: kitt 14s ease infinite;
+
+   }
 
    .caker {
       position: absolute;
       width: 61px;
       height: 58px;
-      top: 88px;
-      left: 118px;
+      top: 89px;
+      left: 85px;
       animation: ekav 5s ease-in-out forwards;
       z-index: -1;
       transform: rotate(324deg);
@@ -1632,8 +1717,8 @@
       }
 
       100% {
-         top: 88px;
-         left: 118px;
+         top: 89px;
+         left: 85px;
          opacity: 1;
          transform: rotate(322deg);
       }
@@ -2240,6 +2325,8 @@
    .sect_2 {
       padding-inline: 100px;
       min-height: 700px;
+      background-image: url(./img/sect_2_9.svg);
+
    }
 
 
@@ -2577,7 +2664,7 @@
       max-width: 765px;
       width: 100%;
       padding-top: 0px;
-      min-height: 186px;
+      min-height: 150px;
       width: 100%;
    }
 
@@ -2723,9 +2810,16 @@
 
    .rain3 {
       display: block;
-      top: 30%;
-      right: 13%;
-   }
+      top: 29%;
+      right: 7%;
+  }
+
+
+  .fifGrMid {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
 
 }
 
@@ -2776,7 +2870,8 @@
 @media screen and (max-width: 678px) {
 
    .sect_1 {
-      background-image: url(./img/sect_1_6.svg);
+      background: linear-gradient(134.31deg, #0A30A3 -3.62%, #001447 46.92%);
+
    }
 
    .orangeCircle1 {
@@ -2789,10 +2884,20 @@
       left: 14.4%;
    }
 
+   .circlesMain {
+      top: 73%;
+      right: unset;
+      left: 9%;
+   }
 
    .circleses_1 {
       top: 168px;
       right: 9px;
+   }
+
+   .circleses_11 {
+      top: 138px;
+      right: -63px;
    }
 
    #item1_1,
@@ -3455,6 +3560,25 @@
       display: block;
    }
 
+   .circleses_11 {
+      top: 21px;
+      right: -96px;
+   }
+
+   .circlesMain {
+      display: flex;
+      gap: 17px;
+      z-index: 1;
+      position: absolute;
+      top: 360px;
+      right: 519px;
+      transform: rotate(316deg);
+      /* display: none; */
+   }
+
+
+
+
    .caker {
       position: absolute;
       top: 33px;
@@ -3491,8 +3615,11 @@
 
    .circlesMain {
       top: 838px;
-      right: 307px;
+      right: unset;
+      width: 131px;
+      left: -2px;
    }
+
 
 
 
@@ -3500,6 +3627,7 @@
       padding-inline: 16px;
       padding-inline: 0px;
       min-height: 725px;
+      background-image: url(./img/sect_2_44.svg);
    }
 
    .sect2_Item {
@@ -3829,7 +3957,6 @@
       top: -249px;
       left: unset;
       right: -241px;
-      animation: unset;
       height: 358px;
    }
 
@@ -3907,9 +4034,9 @@
    }
 
    .left3Bottom img {
-      width: 100%;
-      margin: 10px -34px;
-   }
+      width: 99%;
+      margin: -7px -34px;
+  }
 
    .circle3 {
       top: 86%;
@@ -3949,8 +4076,8 @@
 
 
    .straighTop2 {
-      top: 57.4%;
-   }
+      top: 52.4%;
+  }
 
    .thrdGroupTop {
       min-height: 899px;
@@ -4000,8 +4127,8 @@
    }
 
    .mid3Right {
-      gap: 10px;
-   }
+      gap: 27px;
+  }
 
    .left3MidT {
       margin-top: 48px;
@@ -4065,6 +4192,19 @@
       top: -34%;
       right: -52%;
    }
+   .mid3Left img {
+      width: 100%;
+      margin: 0;
+      margin-top: 17px;
+  }
+  .backCircle1 {
+   top: 24%;
+   left: 9%;
+}
+.backCircle2 {
+   top: 10%;
+   left: 2%;
+}
 
 
 
@@ -4424,8 +4564,9 @@
       right: 10px;
    }
 
-   #item3 {
-      display: none;
+   .circleses_11 {
+      top: -47px;
+      right: -120px;
    }
 
    .sect1V6 {
@@ -4474,13 +4615,13 @@
    }
 
    .halfCircle {
-      width: 175px;
-      height: 175px;
+      width: 188px;
+      height: 200px;
       position: absolute;
-      top: -147px;
-      right: 0px;
+      top: -156px;
+      right: 8px;
       overflow: hidden;
-
+      transform: rotate(3deg);
    }
 
    .halfCircle img {
@@ -4497,6 +4638,9 @@
 
    .sect_2 {
       min-height: 601px;
+
+         background-image: url(./img/sect_2_33.svg);
+      
    }
 
    .sect2Items2 {
@@ -4517,12 +4661,15 @@
    .left3MidT {
       font-size: 20px;
       font-weight: 500;
-      line-height: 30px;
+      line-height: 32px;
       letter-spacing: 0em;
       text-align: left;
       color: #B3DD62;
 
    }
+   .left3MidT {
+      margin-top: 12px;
+  }
 
    .left3Bot,
    .right3MidB,
@@ -4575,9 +4722,9 @@
 
    .rain3 {
       display: block;
-      top: 27%;
+      top: 32%;
       right: -18%;
-   }
+  }
 
    .mid3Left {
       max-width: 380px;
@@ -4585,6 +4732,7 @@
       min-height: 361px;
       padding-top: 80px;
    }
+
 
    .thrdGroupMid {
       min-height: 574px;
@@ -4719,6 +4867,13 @@
       height: 2px;
       border: 3px solid #FFFF
    }
+
+
+   .thrdGroupMid {
+      min-height: 621px;
+      display: flex;
+      flex-direction: column-reverse;
+  }
 
 
 
@@ -5032,7 +5187,7 @@
    }
 
    .circlesMain {
-      top: 859px;
+      top: 840px;
       right: 239px;
       gap: 10px;
    }
