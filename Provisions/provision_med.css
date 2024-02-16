@@ -893,7 +893,6 @@
     }
 
     /* Animation Start */
-
     .bg_img_prov_1 {
         width: 47.854vw;
         height: 47.854vw;
@@ -1031,7 +1030,6 @@
             left: 6.979vw;
             opacity: 0;
         }
-
         100% {
             opacity: 1;
             left: 14.979vw;
@@ -1043,7 +1041,6 @@
     .provisionSect {
         min-height: 716px;
     }
-
     .bg_img_prov_1 {
         width: 55.854vw;
         height: 55.854vw;
@@ -1052,7 +1049,6 @@
         background-image: url(../img/first-img-element_2_A.png);
         animation: spin 30s linear infinite;
     }
-
     .bg_img_prov_3 {
         width: 18.36vw;
         height: 18.36vw;
@@ -1062,7 +1058,6 @@
         animation: appearFromRight_XL_S 1.2s ease-in-out;
         transform: rotate(15deg);
     }
-
     @keyframes appearFromRight_XL_S {
         0% {
             left: 71.979vw;
@@ -1074,7 +1069,6 @@
             left: 76.979vw;
         }
     }
-
     .bg_img_prov_5 {
         position: absolute;
         border: 4.2px solid #FF9149;
@@ -1088,7 +1082,6 @@
         z-index: 0;
         animation: fifth_A 85s linear infinite;
     }
-
     @keyframes fifth_A {
         0% {
             top: -5%;
@@ -1157,8 +1150,6 @@
             transform: rotate(-360deg);
         }
     }
-
-
     .bg_img_prov_4 {
         position: absolute;
         width: 70.552vw;
@@ -1184,15 +1175,10 @@
             left: 14.979vw;
         }
     }
-
-
 }
 
 
-
 @media screen and (max-width:1440px) {
-
-
     .consH1 {
         font-size: 30px;
         font-weight: 500;
