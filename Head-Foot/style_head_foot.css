@@ -247,7 +247,7 @@ header {
   height: 100vh;
   position: absolute;
   top: 8px;
-  left: calc(var(--screen-width) - 380px);
+  left: calc(var(--screen-width) - 370px);
   padding-inline: 16px;
   background-color: #001447;
   display: none;
