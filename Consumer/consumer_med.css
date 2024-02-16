@@ -12,10 +12,10 @@
         left: 82vw;
         transform: rotate(37deg);
         z-index: -2;
-        animation: fifth_M 85s linear infinite;
+        animation: fifth_M1 85s linear infinite;
     }
 
-    @keyframes fifth_M {
+    @keyframes fifth_M1 {
         0% {
             top: 80%;
             left: 8%;
@@ -23,14 +23,14 @@
         }
 
         10% {
-            top: 50%;
+            top: 20%;
             left: 90%;
             transform: rotate(20deg);
         }
 
 
         20% {
-            top: 28%;
+            top: 30%;
             left: 0%;
             transform: rotate(50deg);
         }
@@ -86,10 +86,10 @@
 
 
     .ty_1 {
-        animation: fifth_M_ty_1 85s linear infinite;
+        animation: fifth_M_ty_11 85s linear infinite;
     }
 
-    @keyframes fifth_M_ty_1 {
+    @keyframes fifth_M_ty_11 {
         0% {
             top: 20%;
             left: 8%;
@@ -98,20 +98,20 @@
 
         10% {
             top: 70%;
-            left: 90%;
+            left: 40%;
             transform: rotate(20deg);
         }
 
 
         20% {
-            top: 22%;
+            top: 42%;
             left: 0%;
             transform: rotate(50deg);
         }
 
         30% {
-            top: 65%;
-            left: 70%;
+            top: 2%;
+            left: 10%;
             transform: rotate(90deg);
         }
 
@@ -122,7 +122,7 @@
         }
 
         50% {
-            top: 5%;
+            top:25%;
             left: 15%;
             transform: rotate(100deg);
         }
@@ -133,20 +133,20 @@
         }
 
         70% {
-            top: 15%;
+            top: 0%;
             left: 1%;
             transform: rotate(0deg);
         }
 
         80% {
-            top: 81%;
-            left: 40%;
+            top: 51%;
+            left: 10%;
             transform: rotate(-70deg);
         }
 
         90% {
             top: 5%;
-            left: 90%;
+            left: 70%;
             transform: rotate(-170deg);
         }
 
@@ -160,18 +160,18 @@
 
 
     .ty_2 {
-        animation: fifth_M_ty_2 85s linear infinite;
+        animation: fifth_M_ty_21 85s linear infinite;
     }
 
-    @keyframes fifth_M_ty_2 {
+    @keyframes fifth_M_ty_21 {
         0% {
-            top: 35%;
+            top: 55%;
             left: 8%;
             transform: rotate(0deg);
         }
 
         10% {
-            top: 85%;
+            top: 5%;
             left: 90%;
             transform: rotate(20deg);
         }
@@ -179,31 +179,31 @@
 
         20% {
             top: 44%;
-            left: 0%;
+            left: 60%;
             transform: rotate(50deg);
         }
 
         30% {
-            top: 95%;
-            left: 70%;
+            top: 55%;
+            left: 76%;
             transform: rotate(90deg);
         }
 
         40% {
             top: 8%;
-            left: 60%;
+            left: 21%;
             transform: rotate(0deg);
         }
 
         50% {
-            top: 78%;
+            top: 48%;
             left: 15%;
             transform: rotate(100deg);
         }
 
         60% {
             top: 1%;
-            left: 96%;
+            left: 90%;
         }
 
         70% {
@@ -213,21 +213,21 @@
         }
 
         80% {
-            top: 6%;
-            left: 96%;
+            top: 16%;
+            left: 90%;
             transform: rotate(-70deg);
         }
 
         90% {
             top: 5%;
-            left: 40%;
+            left: 70%;
             transform: rotate(-170deg);
         }
 
 
         100% {
-            top: 95%;
-            left: 95%;
+            top: 90%;
+            left: 9%;
             transform: rotate(-360deg);
         }
     }

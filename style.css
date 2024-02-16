@@ -109,7 +109,7 @@ ul {
     top: 17.5%;
     left: 46.5%;
     animation: third 85s linear infinite alternate;
-    z-index: 1;
+    z-index: 0;
 }
 
 @keyframes third {
@@ -481,6 +481,7 @@ ul {
     height: 10px;
     border-radius: 50%;
     border: 5px solid #FFFFFF;
+    
 
 }
 
@@ -1956,7 +1957,7 @@ div {
     height: 9px;
     border-radius: 50%;
     border: 4px solid #FFFFFF;
-    animation: scaleAndRotate 4s linear infinite;
+    animation: scaleAndRotate 3s linear infinite;
 }
 
 @keyframes scaleAndRotate {
@@ -1965,7 +1966,7 @@ div {
     }
 
     50% {
-        transform: rotate(180deg) scale(1.5);
+        transform: rotate(180deg) scale(1);
     }
 
     100% {
